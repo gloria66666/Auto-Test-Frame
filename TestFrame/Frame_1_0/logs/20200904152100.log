@@ -1,0 +1,17 @@
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:83] - INFO - You had select Firefox browser. 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:85] - INFO - The test server url is http://baidu.com 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:87] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:89] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:91] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:93] - INFO - The test case col is 1 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUpClass[line:95] - INFO - The test case assert col is 3 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUp[line:113] - INFO - case_col: 1 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUp[line:115] - INFO - sleep_col: 2 
+2020-09-04 15:21:00,575 - test - baidutest.py->setUp[line:117] - INFO - assert_col: 3 
+2020-09-04 15:21:00,575 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 15:21:00,575 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 15:21:00,591 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 15:21:00,591 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 15:21:00,591 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 15:21:06,060 - test - baidutest.py->test_baidu_signin1[line:274] - ERROR - Test Fail:Message: permission denied
+ 

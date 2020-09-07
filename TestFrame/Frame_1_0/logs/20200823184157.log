@@ -1,0 +1,8 @@
+2020-08-23 18:41:57,418 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-23 18:41:57,418 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-23 18:42:06,278 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-23 18:42:10,143 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-23 18:42:10,196 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-23 18:42:10,516 - test - test.py->test_baidu_search[line:63] - ERROR - Test Fail:Alert Text: None
+Message: Dismissed user prompt dialog: To Bottom
+ 

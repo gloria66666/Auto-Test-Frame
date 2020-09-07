@@ -1,0 +1,56 @@
+2020-08-28 17:11:55,335 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:11:57,900 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-28 17:11:57,914 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:11:57,959 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-28 17:11:58,130 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-28 17:11:58,282 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-28 17:11:58,515 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-28 17:11:58,533 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-28 17:11:58,543 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-28 17:11:58,543 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-28 17:11:58,850 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-28 17:12:03,857 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-28 17:12:03,907 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-28 17:12:08,945 - Page - page.py->current_url[line:270] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-28 17:12:08,950 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="4892c1bf-529b-4679-9157-dfeceeddb4ef")>> 
+2020-08-28 17:12:08,954 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-28 17:12:12,437 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-28 17:12:31,692 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:12:34,239 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-28 17:12:34,257 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:12:45,112 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:12:48,352 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-28 17:12:48,359 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:12:48,360 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-28 17:12:48,479 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 登录 ' successfully! by: l value:登录 
+2020-08-28 17:12:50,000 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 立即注册 ' successfully! by: l value:立即注册 
+2020-08-28 17:12:50,351 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-28 17:12:50,368 - Page - page.py->switch_to_window[line:320] - INFO - Switch to the window: 6442450950 
+2020-08-28 17:13:00,468 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="account"]
+ 
+2020-08-28 17:13:01,201 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:13:01,217 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-08-28 17:13:01,257 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-28 17:13:03,301 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:phone 
+2020-08-28 17:13:03,372 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-28 17:13:16,574 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:13:20,996 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-28 17:13:21,024 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:13:31,059 - Page - page.py->find_element[line:142] - ERROR - [xpath 定位方式]NoSuchElementException:Message: Unable to locate element: /html/body/div[2]/div[8]/div[2]/div[3]/div/div[2]/div/iframe
+ 
+2020-08-28 17:13:31,441 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:13:41,454 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="email"]
+ 
+2020-08-28 17:13:41,768 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:13:51,787 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="email"]
+ 
+2020-08-28 17:13:52,119 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:14:02,134 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="password"]
+ 
+2020-08-28 17:14:02,433 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:14:12,448 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="password"]
+ 
+2020-08-28 17:14:12,818 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:14:22,840 - Page - page.py->find_element[line:82] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="dologin"]
+ 
+2020-08-28 17:14:23,189 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 

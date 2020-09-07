@@ -1,0 +1,59 @@
+2020-09-01 14:45:10,424 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-01 14:45:10,440 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-01 14:45:10,440 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-01 14:45:10,440 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-01 14:45:10,440 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-01 14:45:10,440 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-01 14:45:10,440 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-01 14:45:23,050 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 14:45:26,238 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 14:45:26,285 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 14:45:26,300 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-09-01 14:45:26,707 - Page - page.py->send_keys[line:170] - INFO - Inputted ' su ' in the inputBox 
+2020-09-01 14:45:26,863 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-01 14:45:27,097 - Page - page.py->click[line:196] - INFO - The element [ su ] was clicked 
+2020-09-01 14:45:27,144 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-01 14:45:27,160 - Page - page.py->get_attribute[line:208] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-09-01 14:45:27,160 - Page - page.py->maximize_window[line:242] - INFO - Window will be maximized 
+2020-09-01 14:45:27,582 - Page - page.py->execute_script[line:216] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-09-01 14:45:33,488 - Page - page.py->set_window_size[line:224] - INFO - Window will be set: 500*300 
+2020-09-01 14:45:33,566 - Page - page.py->get_window_size[line:233] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="ee521da5-58fe-41f2-a20d-0ea4ff9980ab")>> 
+2020-09-01 14:45:33,582 - Page - page.py->current_url[line:282] - INFO - Current page url is https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=su&fenlei=256&rsv_pq=a1d39f160005014b&rsv_t=b9e1HWh6bxyjYq2M6G9uoZw%2FzvHDxVVNoiWFDecNWkyXYVtxCXMwlRTw9%2B4&rqlang=cn&rsv_enter=0&rsv_dl=tb&rsv_sug3=2&rsv_sug1=1&rsv_sug7=100&rsv_btype=i&inputT=557&rsv_sug4=558 
+2020-09-01 14:45:33,598 - Page - page.py->back[line:250] - INFO - Window will be back 
+2020-09-01 14:45:38,614 - Page - page.py->current_url[line:282] - INFO - Current page url is https://www.baidu.com/ 
+2020-09-01 14:45:38,614 - Page - page.py->forward[line:258] - INFO - Window will be forward 
+2020-09-01 14:45:40,379 - Page - page.py->get_windows_img[line:48] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-09-01 14:45:42,380 - Page - page.py->close[line:274] - INFO - Window will be closed 
+2020-09-01 14:45:54,677 - Page - page.py->get_window_size[line:233] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="ee521da5-58fe-41f2-a20d-0ea4ff9980ab")>> 
+2020-09-01 14:45:54,693 - Page - page.py->get_window_size[line:237] - ERROR - Failed to get the window size: Message: Tried to run command without establishing a connection
+ 
+2020-09-01 14:45:54,693 - test - baidutest.py->test_baidu_operation[line:115] - ERROR - Test operation assert Fail:Message: Tried to run command without establishing a connection
+ 
+2020-09-01 14:45:54,693 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-01 14:46:04,053 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 14:46:06,746 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 14:46:06,775 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 14:46:06,830 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-09-01 14:46:07,126 - Page - page.py->send_keys[line:170] - INFO - Inputted ' selenium ' in the inputBox 
+2020-09-01 14:46:07,247 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: i value:su 
+2020-09-01 14:46:07,507 - Page - page.py->click[line:196] - INFO - The element [ su ] was clicked 
+2020-09-01 14:46:10,080 - Page - page.py->get_windows_img[line:48] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-09-01 14:46:10,085 - Page - page.py->get_url_title[line:291] - INFO - Current page title is selenium_°Ù¶ÈËÑË÷ 
+2020-09-01 14:46:10,090 - test - baidutest.py->test_baidu_search[line:76] - INFO - Test search_selenium Pass 
+2020-09-01 14:46:10,090 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-01 14:46:28,880 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 14:46:32,231 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 14:46:32,260 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 14:46:32,301 - Page - page.py->current_window_handle[line:323] - INFO - Get the current window handle 
+2020-09-01 14:46:32,383 - Page - page.py->find_element[line:112] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-09-01 14:46:33,285 - Page - page.py->find_element[line:112] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-09-01 14:46:33,827 - Page - page.py->window_handles[line:330] - INFO - Get all window handles 
+2020-09-01 14:46:33,896 - Page - page.py->swicth_window[line:346] - INFO - The original window handle:['18'] 
+2020-09-01 14:46:33,897 - Page - page.py->swicth_window[line:347] - INFO - The current window handle:18 
+2020-09-01 14:46:33,897 - Page - page.py->switch_to_window[line:337] - INFO - Switch to the window: 18 
+2020-09-01 14:46:33,965 - Page - page.py->swicth_window[line:350] - INFO - Ìø×ªµ½Ä¿µÄ´°¿Ú 
+2020-09-01 14:46:33,975 - Page - page.py->current_window_handle[line:323] - INFO - Get the current window handle 
+2020-09-01 14:46:34,019 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-09-01 14:46:34,150 - test - baidutest.py->test_baidu_signin[line:190] - ERROR - Test Fail:Message: Element <input id="TANGRAM__PSP_11__userName" class="pass-text-input pass-text-input-userName" name="userName" type="text"> could not be scrolled into view
+ 
+2020-09-01 14:46:34,151 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

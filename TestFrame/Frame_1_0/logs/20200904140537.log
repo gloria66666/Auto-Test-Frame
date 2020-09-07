@@ -1,0 +1,30 @@
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:80] - INFO - You had select Firefox browser. 
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:82] - INFO - The test server url is http://baidu.com 
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:84] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:86] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:88] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:90] - INFO - The test case col is 1 
+2020-09-04 14:05:37,063 - test - baidutest.py->setUpClass[line:92] - INFO - The test case assert col is 1 
+2020-09-04 14:05:49,178 - test - baidutest.py->setUp[line:111] - INFO - case_col: 1 
+2020-09-04 14:05:49,178 - test - baidutest.py->setUp[line:113] - INFO - sleep_col: 1 
+2020-09-04 14:05:49,179 - test - baidutest.py->setUp[line:115] - INFO - assert_col: 1 
+2020-09-04 14:05:49,179 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 14:05:49,185 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 14:05:49,186 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 14:05:49,186 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 14:05:49,186 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 14:06:04,331 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 14:06:04,331 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:06:04,331 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 14:06:04,331 - test - baidutest.py->execute[line:37] - INFO - case:current_window_handle ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-04 14:06:04,331 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:06:04,331 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 14:06:04,331 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,0,0 
+2020-09-04 14:06:04,331 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 14:06:04,331 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 14:06:04,331 - test - baidutest.py->execute[line:50] - INFO - para after convert:['current_window_handle', [0]] 
+2020-09-04 14:06:04,363 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'µÇÂ¼'] 
+2020-09-04 14:06:04,363 - test - baidutest.py->execute[line:50] - INFO - para after convert:['click', 'l', 'µÇÂ¼'] 
+2020-09-04 14:06:15,629 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'Á¢¼´×¢²á'] 
+2020-09-04 14:06:15,629 - test - baidutest.py->execute[line:50] - INFO - para after convert:['click', 'l', 'Á¢¼´×¢²á'] 
+2020-09-04 14:06:25,864 - test - baidutest.py->test_baidu_signin1[line:272] - ERROR - Test Fail:execute() missing 1 required positional argument: 's' 

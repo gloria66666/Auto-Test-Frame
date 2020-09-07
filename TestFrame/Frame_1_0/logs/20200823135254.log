@@ -1,0 +1,9 @@
+2020-08-23 13:52:54,342 - test - test.py->setUp[line:24] - INFO - You had select Firefox browser. 
+2020-08-23 13:52:54,342 - test - test.py->setUp[line:26] - INFO - The test server url is http://baidu.com 
+2020-08-23 13:53:05,858 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-23 13:53:10,452 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-23 13:53:10,515 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-23 13:53:21,531 - Page - page.py->find_element[line:81] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="kpapaw"]
+ 
+2020-08-23 13:53:21,766 - Page - page.py->get_windows_img[line:45] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-23 13:53:23,219 - Page - page.py->click[line:193] - INFO - The element [ su ] was clicked 

@@ -1,0 +1,6 @@
+2020-08-23 18:39:08,789 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-23 18:39:08,789 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-23 18:39:18,634 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-23 18:39:22,002 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-23 18:39:22,024 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-23 18:39:22,024 - test - test.py->test_baidu_search[line:63] - ERROR - Test Fail:'Page' object has no attribute 'execute_script' 

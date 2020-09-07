@@ -1,0 +1,40 @@
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:82] - INFO - You had select Firefox browser. 
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:84] - INFO - The test server url is http://baidu.com 
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:86] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:88] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:90] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:92] - INFO - The test case col is 1 
+2020-09-04 14:29:40,098 - test - baidutest.py->setUpClass[line:94] - INFO - The test case assert col is 3 
+2020-09-04 14:29:49,505 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 14:29:52,396 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-04 14:29:52,443 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 14:29:52,443 - test - baidutest.py->setUp[line:112] - INFO - case_col: 1 
+2020-09-04 14:29:52,443 - test - baidutest.py->setUp[line:114] - INFO - sleep_col: 2 
+2020-09-04 14:29:52,443 - test - baidutest.py->setUp[line:116] - INFO - assert_col: 3 
+2020-09-04 14:29:52,443 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 14:29:52,459 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 14:29:52,459 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 14:29:52,459 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 14:29:52,459 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 14:29:52,459 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 14:29:52,459 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:29:52,459 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 14:29:52,459 - test - baidutest.py->execute[line:37] - INFO - case:current_window_handle ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-04 14:29:52,459 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:29:52,459 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 14:29:52,459 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,0,0 
+2020-09-04 14:29:52,459 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 14:29:52,459 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 14:29:52,459 - test - baidutest.py->execute[line:52] - INFO - para after convert:['current_window_handle', [0]] 
+2020-09-04 14:29:52,521 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 14:29:52,521 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'µÇÂ¼'] 
+2020-09-04 14:29:52,521 - test - baidutest.py->execute[line:52] - INFO - para after convert:['click', 'l', 'µÇÂ¼'] 
+2020-09-04 14:29:52,599 - Page - page.py->find_element[line:113] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-09-04 14:29:52,849 - Page - page.py->click[line:197] - INFO - The element [ µÇÂ¼ ] was clicked 
+2020-09-04 14:29:52,849 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'Á¢¼´×¢²á'] 
+2020-09-04 14:29:52,849 - test - baidutest.py->execute[line:52] - INFO - para after convert:['click', 'l', 'Á¢¼´×¢²á'] 
+2020-09-04 14:29:53,896 - Page - page.py->find_element[line:113] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-09-04 14:29:54,131 - Page - page.py->click[line:197] - INFO - The element [ Á¢¼´×¢²á ] was clicked 
+2020-09-04 14:29:54,131 - test - baidutest.py->test_baidu_signin1[line:273] - ERROR - Test Fail:execute() missing 1 required positional argument: 's' 
+2020-09-04 14:29:54,131 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-04 14:30:05,382 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

@@ -1,0 +1,5 @@
+2020-08-24 18:44:09,003 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:44:09,003 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:44:46,965 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:44:46,965 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:46:42,842 - test - test.py->test_baidu_search2[line:126] - ERROR - Test Fail:'Page' object has no attribute 'switch_to' 

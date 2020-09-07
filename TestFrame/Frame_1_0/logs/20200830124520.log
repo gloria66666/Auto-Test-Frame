@@ -1,0 +1,36 @@
+2020-08-30 12:45:20,876 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-30 12:45:20,876 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-30 12:45:32,487 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:45:35,849 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-30 12:45:35,906 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:45:50,460 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:45:53,510 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-30 12:45:53,523 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:45:53,523 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-30 12:45:53,652 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 登录 ' successfully! by: l value:登录 
+2020-08-30 12:45:54,935 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 立即注册 ' successfully! by: l value:立即注册 
+2020-08-30 12:45:55,130 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-30 12:46:04,576 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:46:09,076 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-30 12:46:09,092 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:46:09,373 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-30 12:46:09,373 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="17581a4e-a2e5-4ca8-8ff4-0142e00491c6", element="db569f47-5568-4b4b-8113-45c8caf39143")> 
+2020-08-30 12:46:09,420 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 12:46:09,436 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-30 12:46:09,451 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 12:46:09,498 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-30 12:46:09,498 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-08-30 12:46:09,498 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-30 12:46:09,514 - Excel - excel.py->sheet_by_name[line:94] - INFO - Get the sheet : [测试1] 
+2020-08-30 12:46:09,514 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-30 12:46:09,514 - Excel - excel.py->get_sheet[line:135] - INFO - Get the wt_book's sheet: [0] 
+2020-08-30 12:46:09,514 - Excel - excel.py->cell_value[line:127] - INFO - The cell_type: 1 
+2020-08-30 12:46:09,514 - Excel - excel.py->cell_value[line:128] - INFO - Get this cell_value: [0]row-[1]col 
+2020-08-30 12:46:09,514 - Excel - excel.py->cell_value[line:127] - INFO - The cell_type: 1 
+2020-08-30 12:46:09,514 - Excel - excel.py->cell_value[line:128] - INFO - Get this cell_value: [1]row-[1]col 
+2020-08-30 12:46:09,530 - Page - page.py->find_element[line:80] - INFO - Found the element: ' 登  录 ' successfully! by: i value:dologin 
+2020-08-30 12:46:09,780 - Page - page.py->click[line:194] - INFO - The element [ dologin ] was clicked 
+2020-08-30 12:46:09,780 - Page - page.py->switch_to_default_content[line:292] - INFO - Current frame will be default content 
+2020-08-30 12:46:09,795 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-08-30 12:46:09,811 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-08-30 12:46:09,842 - test - test.py->test_baidu_search2[line:160] - ERROR - Test Fail:'126网易免费邮' unexpectedly found in '126网易免费邮--你的专业电子邮' 

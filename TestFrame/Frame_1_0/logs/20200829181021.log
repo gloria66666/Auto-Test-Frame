@@ -1,0 +1,36 @@
+2020-08-29 18:10:37,728 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:10:44,592 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-29 18:10:44,600 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:10:44,633 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-29 18:10:45,085 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-29 18:10:45,149 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-29 18:10:45,426 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-29 18:10:45,442 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-29 18:10:45,454 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-08-29 18:10:45,455 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-29 18:10:45,759 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-29 18:10:50,769 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-29 18:10:50,832 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-29 18:10:55,880 - Page - page.py->current_url[line:270] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-29 18:10:55,880 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="a2eebc67-7326-4051-909c-d275d1d1ba95")>> 
+2020-08-29 18:10:55,895 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-29 18:10:59,380 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-29 18:11:25,579 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:11:32,396 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-29 18:11:32,465 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:11:49,871 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:11:57,022 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-29 18:11:57,034 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:11:57,034 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-29 18:11:57,132 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-29 18:11:59,424 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-29 18:12:03,734 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-29 18:12:31,520 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:12:43,677 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-29 18:12:43,693 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:12:43,740 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-29 18:12:43,740 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="8bd2f70e-b59c-426b-9384-bbd6656729d1", element="584fce42-44ec-4047-88b6-bf3696b1a028")> 
+2020-08-29 18:12:43,787 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-29 18:12:43,802 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-29 18:12:43,818 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-29 18:12:43,849 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 

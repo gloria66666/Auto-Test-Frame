@@ -1,0 +1,43 @@
+2020-08-30 12:39:59,922 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-30 12:39:59,922 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-30 12:40:12,720 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:40:15,610 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-30 12:40:15,689 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:40:26,736 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:40:29,827 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-30 12:40:29,834 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:40:29,834 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-30 12:40:29,909 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-30 12:40:32,108 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-30 12:40:32,210 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-30 12:40:32,250 - Page - page.py->switch_to_window[line:320] - INFO - Switch to the window: 6442450950 
+2020-08-30 12:40:33,246 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-08-30 12:40:33,343 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-30 12:40:35,402 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:phone 
+2020-08-30 12:40:35,464 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-30 12:40:50,122 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:40:56,028 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-30 12:40:56,059 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:40:56,434 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-30 12:40:56,434 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="fde53cb6-63a1-4a8e-a484-cafcdbaa5b02", element="b5221a92-6c6b-4ea3-83f4-9277287546e6")> 
+2020-08-30 12:40:56,544 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 12:40:56,559 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-30 12:40:56,575 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 12:40:56,606 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-30 12:40:56,606 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-08-30 12:40:56,606 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-30 12:40:56,606 - Excel - excel.py->sheet_by_name[line:94] - INFO - Get the sheet : [²âÊÔ1] 
+2020-08-30 12:40:56,606 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-30 12:40:56,606 - Excel - excel.py->get_sheet[line:135] - INFO - Get the wt_book's sheet: [0] 
+2020-08-30 12:40:56,606 - Excel - excel.py->cell_value[line:131] - ERROR - Failed to get the cell_value [0]row-[1]col: 'Book' object has no attribute 'cell_type' 
+2020-08-30 12:40:56,606 - Excel - excel.py->cell_value[line:131] - ERROR - Failed to get the cell_value [1]row-[1]col: 'Book' object has no attribute 'cell_type' 
+2020-08-30 12:40:56,622 - Page - page.py->find_element[line:80] - INFO - Found the element: ' µÇ  Â¼ ' successfully! by: i value:dologin 
+2020-08-30 12:40:56,856 - Page - page.py->click[line:194] - INFO - The element [ dologin ] was clicked 
+2020-08-30 12:40:56,856 - Page - page.py->switch_to_default_content[line:292] - INFO - Current frame will be default content 
+2020-08-30 12:40:56,872 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126ÍøÒ×Ãâ·ÑÓÊ--ÄãµÄ×¨Òµµç×ÓÓÊ 
+2020-08-30 12:40:56,872 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126ÍøÒ×Ãâ·ÑÓÊ--ÄãµÄ×¨Òµµç×ÓÓÊ 
+2020-08-30 12:40:56,950 - Page - page.py->find_element[line:80] - INFO - Found the element: ' ÓÊÏäÕÊºÅµÇÂ¼
+×¢²áÍøÒ×ÓÊÏä
+ÓÊÏä¹Ù·½App ' successfully! by: i value:loginBlock 
+2020-08-30 12:40:56,950 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ loginBlock ] was gained:login tab-2 
+2020-08-30 12:40:56,950 - test - test.py->test_baidu_search2[line:158] - INFO - Test Pass 

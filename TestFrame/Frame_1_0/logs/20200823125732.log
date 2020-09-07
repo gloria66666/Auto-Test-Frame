@@ -1,0 +1,9 @@
+2020-08-23 12:57:32,433 - test - test.py->setUp[line:24] - INFO - You had select Firefox browser. 
+2020-08-23 12:57:32,433 - test - test.py->setUp[line:26] - INFO - The test server url is http://baidu.com 
+2020-08-23 12:57:46,716 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-23 12:57:49,013 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-23 12:57:49,028 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-23 12:58:00,107 - Page - page.py->find_element[line:81] - ERROR - [id ¶¨Î»]NoSuchElementException:Message: Unable to locate element: [id="kpapaw"]
+ 
+2020-08-23 12:58:00,529 - Page - page.py->get_windows_img[line:45] - INFO - Had take screenshot and save to folder : \screenshots 
+2020-08-23 12:58:00,529 - test - test.py->test_baidu_search[line:54] - ERROR - Test Fail:'str' object has no attribute 'clear' 

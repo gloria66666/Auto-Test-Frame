@@ -1,0 +1,25 @@
+2020-08-29 18:23:42,174 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-29 18:23:42,174 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-29 18:23:54,817 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:23:58,060 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-29 18:23:58,085 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:24:09,199 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:24:12,781 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-29 18:24:12,808 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:24:12,808 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-29 18:24:12,952 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-29 18:24:15,070 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-29 18:24:15,352 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-29 18:24:30,045 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:24:34,848 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-29 18:24:34,895 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:24:34,989 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-29 18:24:34,989 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="991b4ec6-7455-4975-b8b5-36d806b0cc65", element="e55a5cc4-b7b6-4f37-846f-b800c0c1cc24")> 
+2020-08-29 18:24:35,020 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-29 18:24:35,020 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-29 18:24:35,051 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-29 18:24:35,083 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-29 18:24:35,083 - Excel - excel.py->open[line:82] - ERROR - Failed to open the excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] : 'str' object has no attribute 'decode' 
+2020-08-29 18:24:35,083 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-29 18:24:35,083 - Excel - excel.py->copy[line:89] - ERROR - Failed to copy the excel file : 'NoneType' object has no attribute 'datemode' 
+2020-08-29 18:24:35,083 - test - test.py->test_baidu_search2[line:161] - ERROR - Test Fail:'NoneType' object has no attribute 'sheet_loaded' 

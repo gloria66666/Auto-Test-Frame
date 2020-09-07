@@ -1,0 +1,64 @@
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:99] - INFO - You had select Firefox browser. 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:101] - INFO - The test server url is http://baidu.com 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:103] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:105] - INFO - The test case file name is 测试.xls 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:107] - INFO - The test case sheet name is 测试1 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:109] - INFO - The test case col is 1 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUpClass[line:111] - INFO - The test case assert col is 3 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUp[line:129] - INFO - case_col: 1 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUp[line:131] - INFO - sleep_col: 2 
+2020-09-05 14:55:27,528 - test - baidutest.py->setUp[line:133] - INFO - assert_col: 3 
+2020-09-05 14:55:27,528 - Excel - excel.py->open[line:115] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-05 14:55:27,543 - Excel - excel.py->copy[line:124] - INFO - Excel file will be copy 
+2020-09-05 14:55:27,543 - Excel - excel.py->sheet_by_name[line:132] - INFO - Get the sheet : [测试1] 
+2020-09-05 14:55:27,543 - Excel - excel.py->sheet_names[line:156] - INFO - Get all sheet names (dict) 
+2020-09-05 14:55:27,543 - Excel - excel.py->get_sheet[line:173] - INFO - Get the wt_book's sheet: [0] 
+2020-09-05 14:55:35,756 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-05 14:55:37,724 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-05 14:55:37,740 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-05 14:55:37,740 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-05 14:55:37,740 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 14:55:37,740 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-05 14:55:37,740 - test - baidutest.py->execute[line:38] - INFO - case_lst:['current_window_handle,ori_win_handle_lst', 'click,c,icon_qq'] 
+2020-09-05 14:55:37,740 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 14:55:37,740 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-05 14:55:37,740 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-05 14:55:37,740 - test - baidutest.py->execute[line:44] - INFO - 12 3 
+2020-09-05 14:55:37,740 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-05 14:55:37,756 - Page - page.py->current_window_handle[line:329] - INFO - Get the current window handle:18 
+2020-09-05 14:55:37,756 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-05 14:55:43,838 - Page - page.py->find_element[line:103] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-05 14:55:43,975 - test - baidutest.py->execute[line:88] - ERROR - Test Fail:Message: Element <a class="cp_logo icon_qq" href="https://passport.weibo.com/othersitebind/authorize?entry=miniblog&site=qq"> could not be scrolled into view
+ 
+2020-09-05 14:55:51,608 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-05 14:55:57,571 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-05 14:55:57,603 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-05 14:55:57,603 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [2]row-[2]row 
+2020-09-05 14:55:57,603 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 14:55:57,603 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [2]row-[1]col 
+2020-09-05 14:55:57,603 - test - baidutest.py->execute[line:38] - INFO - case_lst:['click,l,电影', 'set_window_size,500,200', 'get_window_size,i', 'maximize_window', 'send_keys,id,bdcsMain,流浪者', 'click,c,btn-default'] 
+2020-09-05 14:55:57,603 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 14:55:57,603 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [2]row-[2]col 
+2020-09-05 14:55:57,603 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '2', '2'] 
+2020-09-05 14:55:57,603 - test - baidutest.py->execute[line:44] - INFO - 12 3 
+2020-09-05 14:55:57,603 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', '电影'] 
+2020-09-05 14:55:57,649 - Page - page.py->find_element[line:113] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-05 14:56:00,726 - Page - page.py->click[line:197] - INFO - The element [ 电影 ] was clicked 
+2020-09-05 14:56:00,726 - test - baidutest.py->execute[line:47] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-05 14:56:00,726 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*200 
+2020-09-05 14:56:00,772 - test - baidutest.py->execute[line:57] - INFO - It will sleep 2S 
+2020-09-05 14:56:00,772 - test - baidutest.py->execute[line:58] - INFO - 1599288960.772255 
+2020-09-05 14:56:02,772 - test - baidutest.py->execute[line:60] - INFO - 1599288962.772594 
+2020-09-05 14:56:02,772 - test - baidutest.py->execute[line:47] - INFO - para:['get_window_size', 'i'] 
+2020-09-05 14:56:02,794 - Page - page.py->get_window_size[line:235] - INFO - Current window size is {'width': 500, 'height': 200} 
+2020-09-05 14:56:02,826 - test - baidutest.py->execute[line:57] - INFO - It will sleep 2S 
+2020-09-05 14:56:02,826 - test - baidutest.py->execute[line:58] - INFO - 1599288962.826638 
+2020-09-05 14:56:04,836 - test - baidutest.py->execute[line:60] - INFO - 1599288964.836399 
+2020-09-05 14:56:04,836 - test - baidutest.py->execute[line:47] - INFO - para:['maximize_window'] 
+2020-09-05 14:56:04,836 - Page - page.py->maximize_window[line:247] - INFO - Window will be maximized 
+2020-09-05 14:56:05,102 - test - baidutest.py->execute[line:47] - INFO - para:['send_keys', 'id', 'bdcsMain', '流浪者'] 
+2020-09-05 14:56:05,133 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:bdcsMain 
+2020-09-05 14:56:05,180 - Page - page.py->send_keys[line:171] - INFO - Inputted ' 流浪者 ' in the inputBox 
+2020-09-05 14:56:05,180 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'btn-default'] 
+2020-09-05 14:56:05,211 - Page - page.py->find_element[line:103] - INFO - Found the element: ' 搜索 ' successfully! by: c value:btn-default 
+2020-09-05 14:56:05,273 - Page - page.py->click[line:197] - INFO - The element [ btn-default ] was clicked 

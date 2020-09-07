@@ -1,0 +1,35 @@
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-08-31 17:56:38,489 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-08-31 17:56:49,521 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-31 17:56:52,303 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-31 17:56:52,381 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-31 17:56:52,490 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-31 17:56:52,584 - Page - page.py->send_keys[line:171] - INFO - Inputted ' su ' in the inputBox 
+2020-08-31 17:56:52,615 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-31 17:56:52,865 - Page - page.py->click[line:197] - INFO - The element [ su ] was clicked 
+2020-08-31 17:56:52,881 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-31 17:56:52,897 - Page - page.py->get_attribute[line:209] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-08-31 17:56:52,897 - Page - page.py->maximize_window[line:243] - INFO - Window will be maximized 
+2020-08-31 17:56:53,194 - Page - page.py->execute_script[line:217] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-31 17:56:58,241 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 200*300 
+2020-08-31 17:56:58,323 - Page - page.py->back[line:251] - INFO - Window will be back 
+2020-08-31 17:57:03,360 - Page - page.py->get_window_size[line:234] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="ed5a9298-82de-4880-bf66-b19467526690")>> 
+2020-08-31 17:57:03,375 - Page - page.py->current_url[line:283] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-31 17:57:03,375 - Page - page.py->forward[line:259] - INFO - Window will be forward 
+2020-08-31 17:57:05,016 - Page - page.py->get_windows_img[line:49] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-31 17:57:07,016 - Page - page.py->close[line:275] - INFO - Window will be closed 
+2020-08-31 17:57:17,658 - test - baidutest.py->test_baidu_operation[line:110] - ERROR - Test operation assert Fail:200 != 466 
+2020-08-31 17:57:17,658 - test - baidutest.py->test_baidu_search[line:76] - ERROR - Test search_selenium Fail:Message: Tried to run command without establishing a connection
+ 
+2020-08-31 17:57:17,658 - Page - page.py->current_window_handle[line:321] - INFO - Get the current window handle 
+2020-08-31 17:57:17,658 - Page - page.py->current_window_handle[line:324] - ERROR - Failed to get the current window handle: Message: Tried to run command without establishing a connection
+ 
+2020-08-31 17:57:17,658 - test - baidutest.py->test_baidu_signin[line:179] - ERROR - Test Fail:Message: Tried to run command without establishing a connection
+ 
+2020-08-31 17:57:17,658 - test - baidutest.py->tearDownClass[line:49] - INFO - The browser will be close after 3 seconds. 
+2020-08-31 17:57:20,658 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

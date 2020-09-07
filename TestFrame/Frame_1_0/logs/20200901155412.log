@@ -1,0 +1,11 @@
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-01 15:54:12,000 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-01 15:54:36,597 - test - baidutest.py->test_baidu_operation[line:121] - ERROR - Test operation Fail:name 'win_size' is not defined 
+2020-09-01 15:54:53,133 - test - baidutest.py->test_baidu_search[line:77] - INFO - Test search_selenium Pass 
+2020-09-01 15:55:25,848 - test - baidutest.py->test_baidu_signin[line:190] - ERROR - Test Fail:Message: Element <input id="TANGRAM__PSP_11__userName" class="pass-text-input pass-text-input-userName" name="userName" type="text"> could not be scrolled into view
+ 

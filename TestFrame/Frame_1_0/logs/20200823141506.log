@@ -1,0 +1,6 @@
+2020-08-23 14:15:16,367 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-23 14:15:19,711 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-23 14:15:19,711 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-23 14:15:30,728 - Page - page.py->find_element[line:81] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="kpapaw"]
+ 
+2020-08-23 14:15:30,931 - Page - page.py->get_windows_img[line:45] - INFO - Take one screenshot and save to folder: \screenshots 

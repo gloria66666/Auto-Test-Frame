@@ -1,0 +1,154 @@
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:83] - INFO - You had select Firefox browser. 
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:85] - INFO - The test server url is http://baidu.com 
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:87] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:89] - INFO - The test case file name is 测试.xls 
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:91] - INFO - The test case sheet name is 测试1 
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:93] - INFO - The test case col is 1 
+2020-09-04 16:58:43,103 - test - baidutest.py->setUpClass[line:95] - INFO - The test case assert col is 3 
+2020-09-04 16:58:43,119 - test - baidutest.py->setUp[line:113] - INFO - case_col: 1 
+2020-09-04 16:58:43,119 - test - baidutest.py->setUp[line:115] - INFO - sleep_col: 2 
+2020-09-04 16:58:43,119 - test - baidutest.py->setUp[line:117] - INFO - assert_col: 3 
+2020-09-04 16:58:43,119 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-04 16:58:43,119 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 16:58:43,119 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [测试1] 
+2020-09-04 16:58:43,119 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 16:58:43,119 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 16:58:50,717 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 16:58:53,459 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-04 16:58:53,459 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 16:58:53,459 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-04 16:58:53,459 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 16:58:53,459 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 16:58:53,459 - test - baidutest.py->execute[line:37] - INFO - case:current_window_handle ori_win_handle_lst,click c icon_qq,switch_window ori_win_handle_lst,click c link,click id forgetpwd,switch_window ori_win_handle_lst,send_keys id input_find_qq 152 
+2020-09-04 16:58:53,459 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 16:58:53,459 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 16:58:53,459 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,0,0 
+2020-09-04 16:58:53,459 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 16:58:53,459 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 16:58:53,475 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 16:58:53,475 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:58:53,475 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:58:53,475 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-04 16:58:59,746 - Page - page.py->find_element[line:103] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-04 16:59:00,397 - Page - page.py->click[line:197] - INFO - The element [ icon_qq ] was clicked 
+2020-09-04 16:59:00,397 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:00,397 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:00,399 - test - baidutest.py->execute[line:47] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-04 16:59:00,438 - Page - page.py->window_handles[line:335] - INFO - Get all window handles:['18', '39'] 
+2020-09-04 16:59:00,452 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 16:59:00,452 - Page - page.py->switch_window[line:354] - INFO - The current window handle:18 
+2020-09-04 16:59:00,456 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 16:59:00,456 - Page - page.py->switch_window[line:354] - INFO - The current window handle:39 
+2020-09-04 16:59:00,457 - Page - page.py->switch_to_window[line:342] - INFO - Switch to the window: 39 
+2020-09-04 16:59:00,527 - Page - page.py->switch_window[line:357] - INFO - 跳转到目的窗口 
+2020-09-04 16:59:00,528 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:00,528 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:00,528 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'link'] 
+2020-09-04 16:59:10,539 - Page - page.py->find_element[line:105] - ERROR - [class_name 定位方式]NoSuchElementException:Message: Unable to locate element: .link
+ 
+2020-09-04 16:59:10,539 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041659_F_find_c_link.png 
+2020-09-04 16:59:10,711 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:59:10,711 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:10,711 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:10,711 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'id', 'forgetpwd'] 
+2020-09-04 16:59:20,728 - Page - page.py->find_element[line:85] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="forgetpwd"]
+ 
+2020-09-04 16:59:20,728 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041659_F_find_id_forgetpwd.png 
+2020-09-04 16:59:20,915 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:59:20,915 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:20,915 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:20,915 - test - baidutest.py->execute[line:47] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-04 16:59:20,915 - Page - page.py->window_handles[line:335] - INFO - Get all window handles:['18', '39'] 
+2020-09-04 16:59:20,915 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 16:59:20,915 - Page - page.py->switch_window[line:354] - INFO - The current window handle:18 
+2020-09-04 16:59:20,915 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 16:59:20,915 - Page - page.py->switch_window[line:354] - INFO - The current window handle:39 
+2020-09-04 16:59:20,915 - Page - page.py->switch_to_window[line:342] - INFO - Switch to the window: 39 
+2020-09-04 16:59:20,915 - Page - page.py->switch_window[line:357] - INFO - 跳转到目的窗口 
+2020-09-04 16:59:20,915 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:20,915 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:20,915 - test - baidutest.py->execute[line:47] - INFO - para:['send_keys', 'id', 'input_find_qq', '152'] 
+2020-09-04 16:59:30,947 - Page - page.py->find_element[line:85] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="input_find_qq"]
+ 
+2020-09-04 16:59:30,947 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041659_F_find_id_input_find_qq.png 
+2020-09-04 16:59:31,103 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:59:31,103 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:31,103 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:31,103 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 16:59:31,103 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-04 16:59:31,103 - test - baidutest.py->execute[line:37] - INFO - case:click l 电影,set_window_size 500 200,get_window_size win,maximize_window,send_keys i bdcsMain 流浪者,click c btn-default 
+2020-09-04 16:59:31,103 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 16:59:31,103 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-04 16:59:31,103 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,2,2 
+2020-09-04 16:59:31,103 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '2', '2'] 
+2020-09-04 16:59:31,103 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', '电影'] 
+2020-09-04 16:59:41,135 - Page - page.py->find_element[line:115] - ERROR - [link 定位方式]NoSuchElementException:Message: Unable to locate element: 电影
+ 
+2020-09-04 16:59:41,135 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041659_F_find_l_电影.png 
+2020-09-04 16:59:41,307 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:59:41,307 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:41,307 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:41,307 - test - baidutest.py->execute[line:47] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-04 16:59:41,307 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*200 
+2020-09-04 16:59:41,354 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:41,354 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:59:43,354 - test - baidutest.py->execute[line:47] - INFO - para:['get_window_size', 'win'] 
+2020-09-04 16:59:43,354 - Page - page.py->get_window_size[line:234] - INFO - Current window size is {'width': 500, 'height': 200} 
+2020-09-04 16:59:43,386 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:43,386 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 16:59:45,386 - test - baidutest.py->execute[line:47] - INFO - para:['maximize_window'] 
+2020-09-04 16:59:45,386 - Page - page.py->maximize_window[line:246] - INFO - Window will be maximized 
+2020-09-04 16:59:45,651 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:45,651 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 16:59:45,651 - test - baidutest.py->execute[line:47] - INFO - para:['send_keys', 'i', 'bdcsMain', '流浪者'] 
+2020-09-04 16:59:55,683 - Page - page.py->find_element[line:85] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="bdcsMain"]
+ 
+2020-09-04 16:59:55,683 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041659_F_find_i_bdcsMain.png 
+2020-09-04 16:59:55,840 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:59:55,840 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:59:55,840 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 16:59:55,840 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'btn-default'] 
+2020-09-04 17:00:05,856 - Page - page.py->find_element[line:105] - ERROR - [class_name 定位方式]NoSuchElementException:Message: Unable to locate element: .btn-default
+ 
+2020-09-04 17:00:05,856 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041700_F_find_c_btn-default.png 
+2020-09-04 17:00:06,012 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 17:00:06,012 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:06,012 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 17:00:13,689 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 17:00:20,721 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-04 17:00:20,752 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 17:00:20,752 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [1]row-[1]row 
+2020-09-04 17:00:20,752 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 17:00:20,752 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-04 17:00:20,752 - test - baidutest.py->execute[line:37] - INFO - case:click l 电影,set_window_size 500 200,get_window_size win,maximize_window,send_keys i bdcsMain 流浪者,click c btn-default 
+2020-09-04 17:00:20,752 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 17:00:20,752 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-04 17:00:20,752 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,2,2 
+2020-09-04 17:00:20,752 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '2', '2'] 
+2020-09-04 17:00:20,752 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', '电影'] 
+2020-09-04 17:00:20,799 - Page - page.py->find_element[line:113] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-04 17:00:23,674 - Page - page.py->click[line:197] - INFO - The element [ 电影 ] was clicked 
+2020-09-04 17:00:23,674 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:23,674 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 17:00:23,674 - test - baidutest.py->execute[line:47] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-04 17:00:23,674 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*200 
+2020-09-04 17:00:23,720 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:23,721 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 17:00:25,721 - test - baidutest.py->execute[line:47] - INFO - para:['get_window_size', 'win'] 
+2020-09-04 17:00:25,741 - Page - page.py->get_window_size[line:234] - INFO - Current window size is {'width': 500, 'height': 200} 
+2020-09-04 17:00:25,771 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:25,771 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 17:00:27,778 - test - baidutest.py->execute[line:47] - INFO - para:['maximize_window'] 
+2020-09-04 17:00:27,778 - Page - page.py->maximize_window[line:246] - INFO - Window will be maximized 
+2020-09-04 17:00:28,043 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:28,043 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 17:00:28,043 - test - baidutest.py->execute[line:47] - INFO - para:['send_keys', 'i', 'bdcsMain', '流浪者'] 
+2020-09-04 17:00:28,090 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: i value:bdcsMain 
+2020-09-04 17:00:28,153 - Page - page.py->send_keys[line:171] - INFO - Inputted ' 流浪者 ' in the inputBox 
+2020-09-04 17:00:28,153 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:28,153 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 17:00:28,153 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'btn-default'] 
+2020-09-04 17:00:28,215 - Page - page.py->find_element[line:103] - INFO - Found the element: ' 搜索 ' successfully! by: c value:btn-default 
+2020-09-04 17:00:28,278 - Page - page.py->click[line:197] - INFO - The element [ btn-default ] was clicked 
+2020-09-04 17:00:28,278 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:00:28,278 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 500, 'height': 200} 

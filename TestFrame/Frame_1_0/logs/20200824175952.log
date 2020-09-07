@@ -1,0 +1,29 @@
+2020-08-24 17:59:52,856 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 17:59:52,856 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:00:02,725 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:00:06,244 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:00:06,263 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:00:06,314 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-24 18:00:06,386 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-24 18:00:06,416 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 18:00:06,661 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-24 18:00:06,678 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 18:00:06,690 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-24 18:00:06,691 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-24 18:00:07,280 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-24 18:00:12,765 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-24 18:00:12,843 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-24 18:00:17,890 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="93b964a5-4bcf-4a23-9ebb-d48aa44d93e7")>> 
+2020-08-24 18:00:17,890 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-24 18:00:20,984 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-24 18:00:30,282 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:00:30,282 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:00:39,986 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:00:42,861 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:00:42,861 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:00:51,506 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:00:54,093 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-24 18:00:54,099 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:00:54,163 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-24 18:00:55,994 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-24 18:00:57,789 - test - test.py->test_baidu_search2[line:113] - ERROR - Test Fail:'method' object is not iterable 

@@ -1,0 +1,7 @@
+2020-08-29 18:35:19,115 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-29 18:35:19,115 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-29 18:35:27,913 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:35:30,991 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-29 18:35:31,054 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:35:34,242 - test - test.py->test_baidu_search2[line:161] - ERROR - Test Fail:Message: Failed to start browser C:\Program Files\Mozilla Firefox\firefox.exe: other os error
+ 

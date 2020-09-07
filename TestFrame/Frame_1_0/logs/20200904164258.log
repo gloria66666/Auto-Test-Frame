@@ -1,0 +1,53 @@
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:83] - INFO - You had select Firefox browser. 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:85] - INFO - The test server url is http://baidu.com 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:87] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:89] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:91] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:93] - INFO - The test case col is 1 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUpClass[line:95] - INFO - The test case assert col is 3 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUp[line:113] - INFO - case_col: 1 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUp[line:115] - INFO - sleep_col: 2 
+2020-09-04 16:42:58,987 - test - baidutest.py->setUp[line:117] - INFO - assert_col: 3 
+2020-09-04 16:42:58,987 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 16:42:58,987 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 16:42:58,987 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 16:42:59,003 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 16:42:59,003 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 16:43:06,152 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 16:43:09,934 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-04 16:43:09,965 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 16:43:09,965 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-04 16:43:09,965 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 16:43:09,965 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 16:43:09,965 - test - baidutest.py->execute[line:37] - INFO - case:current_window_handle ori_win_handle_lst,click i page,click c forgot-password-a-link,switch_window ori_win_handle_lst,send_keys id J-accName 152  
+2020-09-04 16:43:09,965 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 16:43:09,965 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 16:43:09,965 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,0,0 
+2020-09-04 16:43:09,965 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 16:43:09,965 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 16:43:10,215 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 16:43:10,215 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:43:10,215 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:43:10,215 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'i', 'page'] 
+2020-09-04 16:43:20,249 - Page - page.py->find_element[line:85] - ERROR - [id ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: [id="page"]
+ 
+2020-09-04 16:43:20,250 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041643_F_find_i_page.png 
+2020-09-04 16:43:20,702 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:43:20,702 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:43:20,702 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:43:20,702 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'forgot-password-a-link'] 
+2020-09-04 16:43:30,720 - Page - page.py->find_element[line:105] - ERROR - [class_name ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: .forgot-password-a-link
+ 
+2020-09-04 16:43:30,720 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041643_F_find_c_forgot-password-a-link.png 
+2020-09-04 16:43:31,205 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 16:43:31,205 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:43:31,205 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:43:31,205 - test - baidutest.py->execute[line:47] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-04 16:43:31,220 - Page - page.py->window_handles[line:335] - INFO - Get all window handles:['18'] 
+2020-09-04 16:43:31,220 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 16:43:31,220 - Page - page.py->switch_window[line:354] - INFO - The current window handle:18 
+2020-09-04 16:43:31,220 - test - baidutest.py->execute[line:53] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 16:43:31,220 - test - baidutest.py->execute[line:54] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 16:43:31,220 - test - baidutest.py->execute[line:47] - INFO - para:['send_keys', 'id', 'J-accName', '152', ''] 
+2020-09-04 16:43:31,220 - test - baidutest.py->execute[line:72] - ERROR - Test Fail:send_keys() takes 4 positional arguments but 5 were given 
+2020-09-04 16:43:39,901 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 

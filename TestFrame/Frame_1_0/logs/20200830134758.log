@@ -1,0 +1,10 @@
+2020-08-30 13:47:58,435 - test - test.py->setUp[line:29] - INFO - You had select Firefox browser. 
+2020-08-30 13:47:58,435 - test - test.py->setUp[line:31] - INFO - The test server url is http://baidu.com 
+2020-08-30 13:49:27,418 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-08-30 13:49:28,871 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-30 13:49:28,918 - Excel - excel.py->sheet_by_name[line:94] - INFO - Get the sheet : [²âÊÔ1] 
+2020-08-30 13:49:28,918 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-30 13:49:28,918 - Excel - excel.py->get_sheet[line:135] - INFO - Get the wt_book's sheet: [0] 
+2020-08-30 13:49:28,918 - Excel - excel.py->cell_value[line:127] - INFO - The cell_type: 1 
+2020-08-30 13:49:28,918 - Excel - excel.py->cell_value[line:128] - INFO - Get this cell_value: [0]row-[1]col 
+2020-08-30 13:49:28,918 - test - test.py->test_baidu_search2[line:167] - ERROR - Test Fail:Expecting property name enclosed in double quotes: line 1 column 2 (char 1) 

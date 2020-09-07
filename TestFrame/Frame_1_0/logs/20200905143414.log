@@ -1,0 +1,30 @@
+2020-09-05 14:34:22,194 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-05 14:34:24,430 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-05 14:34:24,445 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-05 14:34:24,461 - Page - page.py->current_window_handle[line:329] - INFO - Get the current window handle:18 
+2020-09-05 14:34:30,783 - Page - page.py->find_element[line:103] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-05 14:34:31,499 - Page - page.py->click[line:197] - INFO - The element [ icon_qq ] was clicked 
+2020-09-05 14:34:31,514 - Page - page.py->get_url_title[line:296] - INFO - Current page title is 微博-随时随地发现新鲜事 
+2020-09-05 14:34:31,557 - Page - page.py->window_handles[line:336] - INFO - Get all window handles:['18', '39'] 
+2020-09-05 14:34:31,569 - Page - page.py->switch_window[line:354] - INFO - The original window handle:18 
+2020-09-05 14:34:31,570 - Page - page.py->switch_window[line:355] - INFO - The current window handle:18 
+2020-09-05 14:34:31,570 - Page - page.py->switch_window[line:354] - INFO - The original window handle:18 
+2020-09-05 14:34:31,570 - Page - page.py->switch_window[line:355] - INFO - The current window handle:39 
+2020-09-05 14:34:31,570 - Page - page.py->switch_to_window[line:343] - INFO - Switch to the window: 39 
+2020-09-05 14:34:31,581 - Page - page.py->switch_window[line:358] - INFO - 跳转到目的窗口 
+2020-09-05 14:34:31,591 - Page - page.py->get_window_size[line:235] - INFO - Current window size is {'width': 1296, 'height': 975} 
+2020-09-05 14:34:32,655 - Page - page.py->find_element[line:113] - INFO - Found the element: ' QQ登录服务协议 ' successfully! by: l value:QQ登录服务协议 
+2020-09-05 14:34:32,768 - Page - page.py->click[line:197] - INFO - The element [ QQ登录服务协议 ] was clicked 
+2020-09-05 14:34:32,819 - Page - page.py->get_url_title[line:296] - INFO - Current page title is QQ帐号安全登录 
+2020-09-05 14:34:40,499 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-05 14:34:47,977 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-05 14:34:47,993 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-05 14:34:48,040 - Page - page.py->find_element[line:113] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-05 14:34:57,168 - Page - page.py->click[line:197] - INFO - The element [ 电影 ] was clicked 
+2020-09-05 14:34:57,184 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*200 
+2020-09-05 14:34:59,231 - Page - page.py->get_window_size[line:235] - INFO - Current window size is {'width': 500, 'height': 200} 
+2020-09-05 14:35:01,263 - Page - page.py->maximize_window[line:247] - INFO - Window will be maximized 
+2020-09-05 14:35:01,544 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:bdcsMain 
+2020-09-05 14:35:01,575 - Page - page.py->send_keys[line:171] - INFO - Inputted ' 流浪者 ' in the inputBox 
+2020-09-05 14:35:01,622 - Page - page.py->find_element[line:103] - INFO - Found the element: ' 搜索 ' successfully! by: c value:btn-default 
+2020-09-05 14:35:01,684 - Page - page.py->click[line:197] - INFO - The element [ btn-default ] was clicked 

@@ -1,0 +1,2 @@
+2020-08-17 13:29:57,371 - Config - config_parser.py>value[line:19] - INFO - hello 
+2020-08-17 13:29:57,371 - test - test.py><module>[line:15] - INFO - hello 

@@ -1,0 +1,35 @@
+2020-08-30 12:22:22,990 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:22:27,863 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-30 12:22:27,902 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:22:40,642 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:22:44,283 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-30 12:22:44,330 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:22:44,330 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-30 12:22:44,439 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-30 12:22:46,111 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-30 12:22:48,643 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-30 12:22:48,674 - Page - page.py->switch_to_window[line:320] - INFO - Switch to the window: 6442450950 
+2020-08-30 12:22:58,818 - Page - page.py->find_element[line:92] - ERROR - [name ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: [name="account"]
+ 
+2020-08-30 12:23:04,068 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-30 12:23:04,084 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-08-30 12:23:04,131 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-30 12:23:06,162 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:phone 
+2020-08-30 12:23:06,209 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-30 12:23:25,835 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 12:23:35,477 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-30 12:23:35,508 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 12:23:35,586 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-30 12:23:35,586 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="890c10cf-7739-4d3e-b7bd-1c6c93c86c87", element="a8de6ebb-0486-44df-ae31-04de78ad7a79")> 
+2020-08-30 12:23:35,617 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 12:23:35,633 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-30 12:23:35,649 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 12:23:35,680 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-30 12:23:35,899 - Page - page.py->find_element[line:80] - INFO - Found the element: ' µÇ  Â¼ ' successfully! by: i value:dologin 
+2020-08-30 12:23:36,227 - Page - page.py->click[line:194] - INFO - The element [ dologin ] was clicked 
+2020-08-30 12:23:36,227 - Page - page.py->switch_to_default_content[line:292] - INFO - Current frame will be default content 
+2020-08-30 12:23:36,242 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126ÍøÒ×Ãâ·ÑÓÊ--ÄãµÄ×¨Òµµç×ÓÓÊ 
+2020-08-30 12:23:36,321 - Page - page.py->find_element[line:80] - INFO - Found the element: ' ÓÊÏäÕÊºÅµÇÂ¼
+×¢²áÍøÒ×ÓÊÏä
+ÓÊÏä¹Ù·½App ' successfully! by: i value:loginBlock 
+2020-08-30 12:23:36,336 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ loginBlock ] was gained:login tab-2 

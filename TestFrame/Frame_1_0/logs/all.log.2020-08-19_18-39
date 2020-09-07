@@ -1,0 +1,9 @@
+2020-08-19 18:38:29,456 - test - test.py-><module>[line:17] - INFO - hello 
+2020-08-19 18:38:41,410 - Config - config_parser.py->_read_file[line:81] - INFO - I:\Python3\TestFrame\Frame_1_0  I:\Python3\TestFrame\Frame_1_0\config 
+2020-08-19 18:38:41,410 - test - test.py-><module>[line:17] - INFO - hello 
+2020-08-19 18:38:53,630 - Config - config_parser.py->_read_file[line:81] - INFO - I:\Python3\TestFrame\Frame_1_0  I:\Python3\TestFrame\Frame_1_0\config 
+2020-08-19 18:38:53,630 - test - test.py-><module>[line:17] - INFO - hello 
+2020-08-19 18:38:56,724 - Config - config_parser.py->_read_file[line:81] - INFO - I:\Python3\TestFrame\Frame_1_0  I:\Python3\TestFrame\Frame_1_0\config 
+2020-08-19 18:38:56,724 - test - test.py-><module>[line:17] - INFO - hello 
+2020-08-19 18:39:02,506 - Config - config_parser.py->_read_file[line:81] - INFO - I:\Python3\TestFrame\Frame_1_0  I:\Python3\TestFrame\Frame_1_0\config 
+2020-08-19 18:39:02,521 - test - test.py-><module>[line:17] - INFO - hello 

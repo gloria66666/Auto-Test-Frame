@@ -1,0 +1,102 @@
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:90] - INFO - You had select Firefox browser. 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:92] - INFO - The test server url is http://baidu.com 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:94] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:96] - INFO - The test case file name is 测试.xls 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:98] - INFO - The test case sheet name is 测试1 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:100] - INFO - The test case col is 1 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUpClass[line:102] - INFO - The test case assert col is 3 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUp[line:120] - INFO - case_col: 1 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUp[line:122] - INFO - sleep_col: 2 
+2020-09-04 18:41:18,105 - test - baidutest.py->setUp[line:124] - INFO - assert_col: 3 
+2020-09-04 18:41:18,105 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-04 18:41:18,105 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 18:41:18,105 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [测试1] 
+2020-09-04 18:41:18,105 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 18:41:18,105 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 18:41:26,811 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 18:41:29,164 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-04 18:41:29,180 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 18:41:29,180 - test - baidutest.py->execute[line:30] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 18:41:29,180 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:41:29,180 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 18:41:29,180 - test - baidutest.py->execute[line:38] - INFO - case:current_window_handle ori_win_handle_lst,click c icon_qq,switch_window ori_win_handle_lst,click l QQ登录服务协议 
+2020-09-04 18:41:29,180 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:41:29,180 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 18:41:29,180 - test - baidutest.py->execute[line:41] - INFO - sleep time:0,0,0 
+2020-09-04 18:41:29,180 - test - baidutest.py->execute[line:43] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 18:41:29,180 - test - baidutest.py->execute[line:48] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 18:41:29,195 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 18:41:29,195 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:41:29,195 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:41:29,195 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-04 18:41:36,232 - Page - page.py->find_element[line:103] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-04 18:41:37,706 - Page - page.py->click[line:197] - INFO - The element [ icon_qq ] was clicked 
+2020-09-04 18:41:37,707 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:41:37,707 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:41:37,707 - test - baidutest.py->execute[line:48] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-04 18:41:37,774 - Page - page.py->window_handles[line:335] - INFO - Get all window handles:['18', '39'] 
+2020-09-04 18:41:37,798 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 18:41:37,798 - Page - page.py->switch_window[line:354] - INFO - The current window handle:18 
+2020-09-04 18:41:37,799 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 18:41:37,799 - Page - page.py->switch_window[line:354] - INFO - The current window handle:39 
+2020-09-04 18:41:37,799 - Page - page.py->switch_to_window[line:342] - INFO - Switch to the window: 39 
+2020-09-04 18:41:38,073 - Page - page.py->switch_window[line:357] - INFO - 跳转到目的窗口 
+2020-09-04 18:41:38,074 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:41:38,074 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:41:38,074 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'l', 'QQ登录服务协议'] 
+2020-09-04 18:41:38,874 - Page - page.py->find_element[line:113] - INFO - Found the element: ' QQ登录服务协议 ' successfully! by: l value:QQ登录服务协议 
+2020-09-04 18:41:39,138 - Page - page.py->click[line:197] - INFO - The element [ QQ登录服务协议 ] was clicked 
+2020-09-04 18:41:39,138 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:41:39,139 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:41:39,139 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:41:39,139 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[3]col 
+2020-09-04 18:41:39,139 - test - baidutest.py->execute[line:63] - INFO - assert:assertIn 登录:get_url_title,assertIn icon_qq:get_attribute c icon_qq c 
+2020-09-04 18:41:39,139 - test - baidutest.py->execute[line:65] - INFO - ['assertIn 登录:get_url_title', 'assertIn icon_qq:get_attribute c icon_qq c'] 
+2020-09-04 18:41:39,140 - test - baidutest.py->execute[line:70] - INFO - ['get_url_title'] 
+2020-09-04 18:41:39,207 - Page - page.py->get_url_title[line:295] - INFO - Current page title is QQ帐号安全登录 
+2020-09-04 18:41:39,257 - test - baidutest.py->execute[line:72] - INFO - result:QQ帐号安全登录 
+2020-09-04 18:41:39,257 - test - baidutest.py->execute[line:70] - INFO - ['get_attribute', 'c', 'icon_qq', 'c'] 
+2020-09-04 18:41:49,337 - Page - page.py->find_element[line:105] - ERROR - [class_name 定位方式]NoSuchElementException:Message: Unable to locate element: .icon_qq
+ 
+2020-09-04 18:41:49,337 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041841_F_find_c_icon_qq.png 
+2020-09-04 18:41:49,649 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 18:41:49,649 - test - baidutest.py->execute[line:72] - INFO - result:None 
+2020-09-04 18:41:49,649 - test - baidutest.py->execute[line:77] - ERROR - Test assert Fail:argument of type 'NoneType' is not iterable 
+2020-09-04 18:41:56,888 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 18:42:04,258 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-04 18:42:04,258 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 18:42:04,258 - test - baidutest.py->execute[line:30] - INFO - Execute the case from the rd_book's sheet [0]: [1]row-[1]row 
+2020-09-04 18:42:04,258 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:42:04,258 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-04 18:42:04,258 - test - baidutest.py->execute[line:38] - INFO - case:click l 电影,set_window_size 500 200,get_window_size win,maximize_window,send_keys i bdcsMain 流浪者,click c btn-default 
+2020-09-04 18:42:04,258 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:42:04,258 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-04 18:42:04,258 - test - baidutest.py->execute[line:41] - INFO - sleep time:0,2,2 
+2020-09-04 18:42:04,258 - test - baidutest.py->execute[line:43] - INFO - sleep time list:['0', '2', '2'] 
+2020-09-04 18:42:04,258 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'l', '电影'] 
+2020-09-04 18:42:04,320 - Page - page.py->find_element[line:113] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-04 18:42:07,319 - Page - page.py->click[line:197] - INFO - The element [ 电影 ] was clicked 
+2020-09-04 18:42:07,320 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:42:07,320 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:42:07,320 - test - baidutest.py->execute[line:48] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-04 18:42:07,320 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*200 
+2020-09-04 18:42:07,376 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:42:07,376 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:42:09,376 - test - baidutest.py->execute[line:48] - INFO - para:['get_window_size', 'win'] 
+2020-09-04 18:42:09,392 - Page - page.py->get_window_size[line:234] - INFO - Current window size is {'width': 500, 'height': 200} 
+2020-09-04 18:42:09,423 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:42:09,424 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 18:42:11,436 - test - baidutest.py->execute[line:48] - INFO - para:['maximize_window'] 
+2020-09-04 18:42:11,436 - Page - page.py->maximize_window[line:246] - INFO - Window will be maximized 
+2020-09-04 18:42:11,717 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:42:11,717 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 18:42:11,717 - test - baidutest.py->execute[line:48] - INFO - para:['send_keys', 'i', 'bdcsMain', '流浪者'] 
+2020-09-04 18:42:11,732 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: i value:bdcsMain 
+2020-09-04 18:42:11,779 - Page - page.py->send_keys[line:171] - INFO - Inputted ' 流浪者 ' in the inputBox 
+2020-09-04 18:42:11,779 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:42:11,779 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 500, 'height': 200} 
+2020-09-04 18:42:11,779 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'c', 'btn-default'] 
+2020-09-04 18:42:11,842 - Page - page.py->find_element[line:103] - INFO - Found the element: ' 搜索 ' successfully! by: c value:btn-default 
+2020-09-04 18:42:11,904 - Page - page.py->click[line:197] - INFO - The element [ btn-default ] was clicked 
+2020-09-04 18:42:11,904 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:42:11,904 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 500, 'height': 200} 

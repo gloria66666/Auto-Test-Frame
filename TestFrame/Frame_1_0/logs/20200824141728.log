@@ -1,0 +1,17 @@
+2020-08-24 14:17:28,816 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 14:17:28,816 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 14:17:39,535 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 14:17:40,912 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 14:17:40,924 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 14:17:40,948 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-24 14:17:41,028 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-24 14:17:41,063 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 14:17:41,397 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-24 14:17:41,411 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 14:17:41,425 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-24 14:17:41,425 - Page - page.py->maximize_window[line:228] - INFO - Window will be maximized 
+2020-08-24 14:17:41,703 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-24 14:17:43,739 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 100*100 
+2020-08-24 14:17:43,809 - Page - page.py->back[line:235] - INFO - Window will be back 
+2020-08-24 14:17:45,834 - Page - page.py->forward[line:242] - INFO - Window will be forward 
+2020-08-24 14:17:48,928 - Page - page.py->close[line:255] - INFO - Window will be closed 

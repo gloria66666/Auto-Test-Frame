@@ -1,0 +1,34 @@
+2020-08-29 18:36:59,592 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-29 18:36:59,592 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-29 18:37:08,936 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:37:12,171 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-29 18:37:12,202 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:37:23,171 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:37:25,801 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-29 18:37:25,812 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:37:25,812 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-29 18:37:25,926 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-29 18:37:27,681 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-29 18:37:28,062 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-29 18:37:28,067 - Page - page.py->switch_to_window[line:320] - INFO - Switch to the window: 6442450950 
+2020-08-29 18:37:38,086 - Page - page.py->find_element[line:92] - ERROR - [name ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: [name="account"]
+ 
+2020-08-29 18:37:39,523 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-29 18:37:39,539 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-08-29 18:37:39,586 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-29 18:37:41,602 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:phone 
+2020-08-29 18:37:41,633 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-29 18:37:55,212 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-29 18:37:58,759 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-29 18:37:58,806 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-29 18:37:58,900 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-29 18:37:58,900 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="874e43a6-7100-489e-acd3-8ad293f82a78", element="30f5489f-71b0-4d92-ab37-54ff6e5760fb")> 
+2020-08-29 18:37:58,947 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-29 18:37:58,962 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-29 18:37:58,978 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-29 18:37:59,009 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-29 18:37:59,009 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-08-29 18:37:59,650 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-29 18:37:59,650 - Excel - excel.py->sheet_by_name[line:97] - ERROR - Failed to get the sheet [²âÊÔ1]: 'str' object has no attribute 'decode' 
+2020-08-29 18:37:59,650 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-29 18:37:59,650 - test - test.py->test_baidu_search2[line:161] - ERROR - Test Fail:'NoneType' object has no attribute 'nrows' 

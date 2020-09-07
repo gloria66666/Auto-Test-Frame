@@ -1,0 +1,12 @@
+2020-08-23 18:25:10,917 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-23 18:25:10,917 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-23 18:25:20,324 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-23 18:25:23,230 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-23 18:25:23,246 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-23 18:25:23,308 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-23 18:25:23,480 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-23 18:25:23,511 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-23 18:25:23,777 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-23 18:25:23,793 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-23 18:25:23,824 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-23 18:25:23,824 - test - test.py->test_baidu_search[line:58] - ERROR - Test Fail:'Page' object has no attribute 'execute_script' 

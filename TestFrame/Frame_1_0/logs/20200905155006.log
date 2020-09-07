@@ -1,0 +1,42 @@
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:98] - INFO - You had select Firefox browser. 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:100] - INFO - The test server url is http://baidu.com 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:102] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:104] - INFO - The test case file name is 测试.xls 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:106] - INFO - The test case sheet name is 测试1 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:108] - INFO - The test case col is 1 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUpClass[line:110] - INFO - The test case assert col is 3 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUp[line:128] - INFO - case_col: 1 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUp[line:130] - INFO - sleep_col: 2 
+2020-09-05 15:50:06,013 - test - baidutest.py->setUp[line:132] - INFO - assert_col: 3 
+2020-09-05 15:50:16,291 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-05 15:50:16,291 - test - baidutest.py->execute[line:37] - INFO - case_lst:['current_window_handle,ori_win_handle_lst', 'click,c,icon_qq'] 
+2020-09-05 15:50:16,291 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-05 15:50:16,291 - test - baidutest.py->execute[line:46] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-05 15:50:16,307 - test - baidutest.py->execute[line:46] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-05 15:50:23,715 - test - baidutest.py->execute[line:65] - INFO - assert_lst:['assertIn,登录:get_url_title', 'assertIn,icon_qq:get_attribute,c,icon_qq,c'] 
+2020-09-05 15:50:23,716 - test - baidutest.py->execute[line:69] - INFO - result:get_url_title 
+2020-09-05 15:50:23,716 - test - baidutest.py->execute[line:71] - INFO - para[0]:assertIn,登录 
+2020-09-05 15:50:23,806 - test - baidutest.py->execute[line:82] - INFO - func result:微博-随时随地发现新鲜事 
+2020-09-05 15:50:23,806 - test - baidutest.py->execute[line:85] - ERROR - Test assert Fail:'登录' not found in '微博-随时随地发现新鲜事' 
+2020-09-05 15:50:23,807 - test - baidutest.py->execute[line:37] - INFO - case_lst:['switch_window,ori_win_handle_lst', 'get_window_size,w', 'click,l,QQ登录服务协议'] 
+2020-09-05 15:50:23,807 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '1', '0'] 
+2020-09-05 15:50:23,807 - test - baidutest.py->execute[line:46] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-05 15:50:24,052 - test - baidutest.py->execute[line:46] - INFO - para:['get_window_size', 'w'] 
+2020-09-05 15:50:24,784 - test - baidutest.py->execute[line:56] - INFO - It will sleep 1S 
+2020-09-05 15:50:24,784 - test - baidutest.py->execute[line:57] - INFO - 1599292224.7849028 
+2020-09-05 15:50:25,785 - test - baidutest.py->execute[line:59] - INFO - 1599292225.7858562 
+2020-09-05 15:50:25,785 - test - baidutest.py->execute[line:46] - INFO - para:['click', 'l', 'QQ登录服务协议'] 
+2020-09-05 15:50:26,084 - test - baidutest.py->execute[line:65] - INFO - assert_lst:['assertIn,登录:get_url_title', "assertEqual,1296:win_size_dict['width']"] 
+2020-09-05 15:50:26,084 - test - baidutest.py->execute[line:69] - INFO - result:get_url_title 
+2020-09-05 15:50:26,084 - test - baidutest.py->execute[line:71] - INFO - para[0]:assertIn,登录 
+2020-09-05 15:50:26,136 - test - baidutest.py->execute[line:82] - INFO - func result:QQ帐号安全登录 
+2020-09-05 15:50:26,136 - test - baidutest.py->execute[line:69] - INFO - result:win_size_dict['width'] 
+2020-09-05 15:50:26,136 - test - baidutest.py->execute[line:71] - INFO - para[0]:assertEqual,1296 
+2020-09-05 15:50:40,922 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [2]row-[2]row 
+2020-09-05 15:50:40,922 - test - baidutest.py->execute[line:37] - INFO - case_lst:['click,l,电影', 'set_window_size,500,200', 'get_window_size,i', 'maximize_window', 'send_keys,id,bdcsMain,流浪者', 'click,c,btn-default'] 
+2020-09-05 15:50:40,922 - test - baidutest.py->execute[line:46] - INFO - para:['click', 'l', '电影'] 
+2020-09-05 15:50:44,709 - test - baidutest.py->execute[line:46] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-05 15:50:44,749 - test - baidutest.py->execute[line:46] - INFO - para:['get_window_size', 'i'] 
+2020-09-05 15:50:44,767 - test - baidutest.py->execute[line:46] - INFO - para:['maximize_window'] 
+2020-09-05 15:50:45,036 - test - baidutest.py->execute[line:46] - INFO - para:['send_keys', 'id', 'bdcsMain', '流浪者'] 
+2020-09-05 15:50:45,122 - test - baidutest.py->execute[line:46] - INFO - para:['click', 'c', 'btn-default'] 

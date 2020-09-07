@@ -1,0 +1,17 @@
+2020-09-04 14:05:46,455 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 14:05:49,168 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-04 14:05:49,177 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 14:05:58,472 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 14:06:04,316 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-09-04 14:06:04,316 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 14:06:04,363 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 14:06:14,473 - Page - page.py->find_element[line:115] - ERROR - [link 定位方式]NoSuchElementException:Message: Unable to locate element: 登录
+ 
+2020-09-04 14:06:14,520 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041406_F_find_l_登录.png 
+2020-09-04 14:06:15,629 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 14:06:25,646 - Page - page.py->find_element[line:115] - ERROR - [link 定位方式]NoSuchElementException:Message: Unable to locate element: 立即注册
+ 
+2020-09-04 14:06:25,646 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041406_F_find_l_立即注册.png 
+2020-09-04 14:06:25,864 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-04 14:06:25,864 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-04 14:06:38,459 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

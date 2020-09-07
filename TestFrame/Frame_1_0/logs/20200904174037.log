@@ -1,0 +1,57 @@
+2020-09-04 17:40:37,638 - test - baidutest.py->setUpClass[line:85] - INFO - You had select Firefox browser. 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUpClass[line:87] - INFO - The test server url is http://baidu.com 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUpClass[line:89] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUpClass[line:91] - INFO - The test case file name is 测试.xls 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUpClass[line:93] - INFO - The test case sheet name is 测试1 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUpClass[line:95] - INFO - The test case col is 1 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUpClass[line:97] - INFO - The test case assert col is 3 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUp[line:115] - INFO - case_col: 1 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUp[line:117] - INFO - sleep_col: 2 
+2020-09-04 17:40:37,654 - test - baidutest.py->setUp[line:119] - INFO - assert_col: 3 
+2020-09-04 17:40:37,654 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-04 17:40:37,654 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 17:40:37,654 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [测试1] 
+2020-09-04 17:40:37,654 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 17:40:37,654 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 17:40:45,275 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 17:40:47,275 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-04 17:40:47,275 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 17:40:47,275 - test - baidutest.py->execute[line:30] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 17:40:47,275 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 17:40:47,275 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 17:40:47,275 - test - baidutest.py->execute[line:38] - INFO - case:current_window_handle ori_win_handle_lst,click c icon_qq,switch_window ori_win_handle_lst,click l QQ登录服务协议 
+2020-09-04 17:40:47,275 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 17:40:47,275 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 17:40:47,275 - test - baidutest.py->execute[line:41] - INFO - sleep time:0,0,0 
+2020-09-04 17:40:47,275 - test - baidutest.py->execute[line:43] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 17:40:47,275 - test - baidutest.py->execute[line:48] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 17:40:47,291 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 17:40:47,291 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:40:47,291 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 17:40:47,291 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-04 17:40:53,260 - Page - page.py->find_element[line:103] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-04 17:40:53,276 - test - baidutest.py->execute[line:74] - ERROR - Test Fail:Message: Element <a class="cp_logo icon_qq" href="https://passport.weibo.com/othersitebind/authorize?entry=miniblog&site=qq"> could not be scrolled into view
+ 
+2020-09-04 17:41:02,436 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 17:41:12,655 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-04 17:41:12,655 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 17:41:12,655 - test - baidutest.py->execute[line:30] - INFO - Execute the case from the rd_book's sheet [0]: [1]row-[1]row 
+2020-09-04 17:41:12,655 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 17:41:12,655 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-04 17:41:12,655 - test - baidutest.py->execute[line:38] - INFO - case:click l 电影,set_window_size 500 200,get_window_size win,maximize_window,send_keys i bdcsMain 流浪者,click c btn-default 
+2020-09-04 17:41:12,655 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 17:41:12,655 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-04 17:41:12,655 - test - baidutest.py->execute[line:41] - INFO - sleep time:0,2,2 
+2020-09-04 17:41:12,655 - test - baidutest.py->execute[line:43] - INFO - sleep time list:['0', '2', '2'] 
+2020-09-04 17:41:12,655 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'l', '电影'] 
+2020-09-04 17:41:12,734 - Page - page.py->find_element[line:113] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-04 17:41:16,039 - Page - page.py->click[line:197] - INFO - The element [ 电影 ] was clicked 
+2020-09-04 17:41:16,040 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 17:41:16,040 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 17:41:16,040 - test - baidutest.py->execute[line:48] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-04 17:41:16,040 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*200 
+2020-09-04 17:41:22,060 - Page - page.py->set_window_size[line:229] - ERROR - Failed to set the window size 500*200: Message: Failed to decode response from marionette
+ 
+2020-09-04 17:41:22,060 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009041741_F_setwinsize500_200.png 
+2020-09-04 17:41:22,060 - test - baidutest.py->execute[line:74] - ERROR - Test Fail:Message: Tried to run command without establishing a connection
+ 

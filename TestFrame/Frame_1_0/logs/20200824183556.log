@@ -1,0 +1,33 @@
+2020-08-24 18:35:56,409 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:35:56,409 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:36:05,119 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:36:08,085 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:36:08,090 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:36:08,118 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-24 18:36:08,277 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-24 18:36:08,389 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 18:36:08,630 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-24 18:36:08,661 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 18:36:08,679 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-24 18:36:08,680 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-24 18:36:08,981 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-24 18:36:14,007 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-24 18:36:14,085 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-24 18:36:19,117 - Page - page.py->current_url[line:270] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-24 18:36:19,117 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="458c74f0-6c06-4e07-8ed2-32f803fb0b51")>> 
+2020-08-24 18:36:19,133 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-24 18:36:22,273 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-24 18:36:31,790 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:36:31,790 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:36:41,603 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:36:44,091 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:36:44,097 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:36:53,906 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:36:57,821 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-24 18:36:57,934 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:36:57,935 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-24 18:36:58,084 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 登录 ' successfully! by: l value:登录 
+2020-08-24 18:37:00,223 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 立即注册 ' successfully! by: l value:立即注册 
+2020-08-24 18:37:00,432 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-24 18:37:00,567 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 百度一下，你就知道 
+2020-08-24 18:37:00,584 - test - test.py->test_baidu_search2[line:113] - ERROR - Test Fail: 

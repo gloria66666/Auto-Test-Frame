@@ -1,0 +1,48 @@
+2020-08-24 18:44:18,869 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:44:21,793 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:44:21,841 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:44:21,908 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-24 18:44:22,108 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-24 18:44:22,362 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 18:44:22,695 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-24 18:44:22,721 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 18:44:22,736 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-24 18:44:22,736 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-24 18:44:23,103 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-24 18:44:28,683 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-24 18:44:28,730 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-24 18:44:33,761 - Page - page.py->current_url[line:270] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-24 18:44:33,777 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="6635a099-b40c-41fe-9180-a904f7018a5d")>> 
+2020-08-24 18:44:33,777 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-24 18:44:37,011 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-24 18:44:56,784 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:44:59,393 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:44:59,472 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:45:10,475 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:45:13,505 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-24 18:45:13,518 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:45:13,518 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-24 18:45:13,736 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 登录 ' successfully! by: l value:登录 
+2020-08-24 18:45:15,392 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 立即注册 ' successfully! by: l value:立即注册 
+2020-08-24 18:45:15,625 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-24 18:45:26,211 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:45:30,868 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-24 18:45:30,915 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:45:30,915 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be x-URS-iframe 
+2020-08-24 18:45:50,979 - Page - page.py->switch_to_frame[line:288] - ERROR - Failed to switch to the frame x-URS-iframe: Message: x-URS-iframe
+ 
+2020-08-24 18:46:01,011 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="email"]
+ 
+2020-08-24 18:46:01,370 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-24 18:46:11,386 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="email"]
+ 
+2020-08-24 18:46:11,746 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-24 18:46:21,762 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="password"]
+ 
+2020-08-24 18:46:22,137 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-24 18:46:32,154 - Page - page.py->find_element[line:92] - ERROR - [name 定位方式]NoSuchElementException:Message: Unable to locate element: [name="password"]
+ 
+2020-08-24 18:46:32,466 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-24 18:46:42,498 - Page - page.py->find_element[line:82] - ERROR - [id 定位方式]NoSuchElementException:Message: Unable to locate element: [id="dologin"]
+ 
+2020-08-24 18:46:42,842 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 

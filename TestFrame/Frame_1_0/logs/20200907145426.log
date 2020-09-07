@@ -1,0 +1,115 @@
+2020-09-07 14:54:27,486 - Baidutest - baidutest.py->setUpClass[line:89] - INFO - You had select Firefox browser. 
+2020-09-07 14:54:27,486 - Baidutest - baidutest.py->setUpClass[line:93] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-07 14:54:27,533 - Baidutest - baidutest.py->setUpClass[line:95] - INFO - The test case file name is 测试.xls 
+2020-09-07 14:54:27,533 - Baidutest - baidutest.py->setUpClass[line:97] - INFO - The test case sheet name is 测试1 
+2020-09-07 14:54:27,533 - Baidutest - baidutest.py->setUpClass[line:99] - INFO - The test case col is 1 
+2020-09-07 14:54:27,549 - Baidutest - baidutest.py->setUpClass[line:101] - INFO - The test case sleep col is 2 
+2020-09-07 14:54:27,549 - Baidutest - baidutest.py->setUpClass[line:103] - INFO - The test case assert col is 3 
+2020-09-07 14:54:39,837 - Browser - browser.py->__init__[line:20] - INFO - Starting firefox browser 
+2020-09-07 14:54:42,290 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-07 14:54:42,306 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-07 14:54:42,306 - Excel - excel.py->open[line:90] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-07 14:54:42,743 - Excel - excel.py->copy[line:99] - INFO - Excel file will be copy 
+2020-09-07 14:54:42,743 - Excel - excel.py->sheet_by_name[line:107] - INFO - Get the sheet : [测试1] 
+2020-09-07 14:54:42,743 - Excel - excel.py->sheet_names[line:131] - INFO - [sheet_names]Get all sheet names (dict) 
+2020-09-07 14:54:42,743 - Excel - excel.py->get_sheet[line:148] - INFO - Get the wt_book's sheet: [0] 
+2020-09-07 14:54:42,743 - Baidutest - baidutest.py->execute[line:24] - INFO - Execute the case from the rd_book's sheet [0]: [1]row-[2]row 
+2020-09-07 14:54:42,743 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-07 14:54:42,743 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-07 14:54:42,743 - Baidutest - baidutest.py->execute[line:28] - INFO - case_lst:['current_window_handle,ori_win_handle_lst', 'click,c,icon_qq'] 
+2020-09-07 14:54:42,743 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-07 14:54:42,743 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-07 14:54:42,743 - Baidutest - baidutest.py->execute[line:32] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-07 14:54:42,743 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-07 14:54:42,759 - Page - page.py->current_window_handle[line:335] - INFO - Get the current window handle:18 
+2020-09-07 14:54:42,759 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-07 14:54:49,085 - Page - page.py->find_element[line:101] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-07 14:54:49,839 - Page - page.py->click[line:195] - INFO - The element [ icon_qq ] was clicked 
+2020-09-07 14:54:49,839 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-07 14:54:49,840 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [1]row-[3]col 
+2020-09-07 14:54:49,840 - Baidutest - baidutest.py->execute[line:54] - INFO - assert_lst:['assertIn,登录:get_url_title', 'assertIn,icon_qq:get_attribute,c,icon_qq,c'] 
+2020-09-07 14:54:49,871 - Baidutest - baidutest.py->execute[line:58] - INFO - result:get_url_title 
+2020-09-07 14:54:49,871 - Baidutest - baidutest.py->execute[line:60] - INFO - para[0]:assertIn,登录 
+2020-09-07 14:54:49,890 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 微博-随时随地发现新鲜事 
+2020-09-07 14:54:49,905 - Baidutest - baidutest.py->execute[line:71] - INFO - func result:微博-随时随地发现新鲜事 
+2020-09-07 14:54:49,935 - Baidutest - baidutest.py->execute[line:75] - ERROR - Test assert Fail:'登录' not found in '微博-随时随地发现新鲜事' 
+2020-09-07 14:54:49,935 - Excel - excel.py->write[line:156] - INFO - Write to the wt_book's sheet [0]: [1]row-[4]col=[Fail] 
+2020-09-07 14:54:49,936 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-07 14:54:49,936 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [2]row-[1]col 
+2020-09-07 14:54:49,936 - Baidutest - baidutest.py->execute[line:28] - INFO - case_lst:['switch_window,ori_win_handle_lst', 'get_window_size,w', 'click,l,QQ登录服务协议'] 
+2020-09-07 14:54:49,936 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-07 14:54:49,936 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [2]row-[2]col 
+2020-09-07 14:54:49,936 - Baidutest - baidutest.py->execute[line:32] - INFO - sleep time list:['0', '1', '0'] 
+2020-09-07 14:54:49,937 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-07 14:54:49,957 - Page - page.py->window_handles[line:342] - INFO - Get all window handles:['18', '41'] 
+2020-09-07 14:54:49,989 - Page - page.py->switch_window[line:360] - INFO - The original window handle:18 
+2020-09-07 14:54:49,989 - Page - page.py->switch_window[line:361] - INFO - The current window handle:18 
+2020-09-07 14:54:49,989 - Page - page.py->switch_window[line:360] - INFO - The original window handle:18 
+2020-09-07 14:54:49,990 - Page - page.py->switch_window[line:361] - INFO - The current window handle:41 
+2020-09-07 14:54:49,990 - Page - page.py->switch_to_window[line:349] - INFO - Switch to the window: 41 
+2020-09-07 14:54:50,005 - Page - page.py->switch_window[line:364] - INFO - 跳转到目的窗口 
+2020-09-07 14:54:50,006 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['get_window_size', 'w'] 
+2020-09-07 14:54:50,020 - Page - page.py->get_window_size[line:233] - INFO - Current window size is {'width': 1296, 'height': 975} 
+2020-09-07 14:54:50,054 - Baidutest - baidutest.py->execute[line:45] - INFO - It will sleep 1S 
+2020-09-07 14:54:50,055 - Baidutest - baidutest.py->execute[line:46] - INFO - 1599461690.0552893 
+2020-09-07 14:54:51,096 - Baidutest - baidutest.py->execute[line:48] - INFO - 1599461691.0962849 
+2020-09-07 14:54:51,096 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['click', 'l', 'QQ登录服务协议'] 
+2020-09-07 14:54:51,149 - Page - page.py->find_element[line:111] - INFO - Found the element: ' QQ登录服务协议 ' successfully! by: l value:QQ登录服务协议 
+2020-09-07 14:54:51,239 - Page - page.py->click[line:195] - INFO - The element [ QQ登录服务协议 ] was clicked 
+2020-09-07 14:54:51,239 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-07 14:54:51,239 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [2]row-[3]col 
+2020-09-07 14:54:51,239 - Baidutest - baidutest.py->execute[line:54] - INFO - assert_lst:['assertIn,登录:get_url_title', "assertEqual,1296:win_size_dict['width']"] 
+2020-09-07 14:54:51,240 - Baidutest - baidutest.py->execute[line:58] - INFO - result:get_url_title 
+2020-09-07 14:54:51,240 - Baidutest - baidutest.py->execute[line:60] - INFO - para[0]:assertIn,登录 
+2020-09-07 14:54:51,588 - Page - page.py->get_url_title[line:294] - INFO - Current page title is QQ帐号安全登录 
+2020-09-07 14:54:51,600 - Baidutest - baidutest.py->execute[line:71] - INFO - func result:QQ帐号安全登录 
+2020-09-07 14:54:51,601 - Baidutest - baidutest.py->execute[line:58] - INFO - result:win_size_dict['width'] 
+2020-09-07 14:54:51,601 - Baidutest - baidutest.py->execute[line:60] - INFO - para[0]:assertEqual,1296 
+2020-09-07 14:54:51,601 - Excel - excel.py->write[line:156] - INFO - Write to the wt_book's sheet [0]: [2]row-[4]col=[Pass] 
+2020-09-07 14:54:51,601 - Baidutest - baidutest.py->test_baidu_signin[line:140] - ERROR - Test Fail:'BaiduTest' object has no attribute 'dirver' 
+2020-09-07 14:54:51,601 - Browser - browser.py->quit_browser[line:54] - INFO - Now, quit the browser. 
+2020-09-07 14:54:55,277 - Excel - excel.py->save[line:164] - INFO - Save the wt_book: [0] 
+2020-09-07 14:54:55,449 - Mail126 - mail126test.py->setUpClass[line:24] - INFO - You had select Firefox browser. 
+2020-09-07 14:54:55,449 - Mail126 - mail126test.py->setUpClass[line:26] - INFO - The test server url is http://www.126.com 
+2020-09-07 14:54:55,449 - Mail126 - mail126test.py->setUpClass[line:28] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-07 14:54:55,449 - Mail126 - mail126test.py->setUpClass[line:30] - INFO - The test case file name is 测试.xls 
+2020-09-07 14:54:55,449 - Mail126 - mail126test.py->setUpClass[line:32] - INFO - The test case sheet name is 测试1 
+2020-09-07 14:54:55,465 - Mail126 - mail126test.py->setUpClass[line:34] - INFO - The test case col is 1 
+2020-09-07 14:54:55,465 - Mail126 - mail126test.py->setUpClass[line:36] - INFO - The test case sleep col is 2 
+2020-09-07 14:54:55,465 - Mail126 - mail126test.py->setUpClass[line:38] - INFO - The test case assert col is 3 
+2020-09-07 14:55:03,898 - Browser - browser.py->__init__[line:20] - INFO - Starting firefox browser 
+2020-09-07 14:55:11,404 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-09-07 14:55:11,436 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-07 14:55:11,436 - Page - page.py->switch_frame[line:309] - INFO - [switch_frame]Current frame will be //*[@id="loginDiv"]/iframe 
+2020-09-07 14:55:14,561 - Page - page.py->find_element[line:141] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-09-07 14:55:14,561 - Page - page.py->switch_to_frame[line:302] - INFO - [switch_to_frame]Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="78099289-5061-452f-8d3d-fda352073f33", element="a2dc8a5f-4df4-4dd8-9d67-9ba68a48316f")> 
+2020-09-07 14:55:14,608 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-07 14:55:14,623 - Page - page.py->clear[line:182] - INFO - Clear the text in the inputBox [ email ] 
+2020-09-07 14:55:14,639 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-07 14:55:14,670 - Page - page.py->send_keys[line:169] - INFO - Inputted ' username ' in the inputBox 
+2020-09-07 14:55:14,670 - Mail126 - mail126test.py->test_mail_login1[line:67] - INFO - ['clear,n,password', 'send_keys,n,password,password'] 
+2020-09-07 14:55:14,670 - Mail126 - mail126test.py->test_mail_login1[line:70] - INFO - ['clear', 'n', 'password'] 
+2020-09-07 14:55:14,686 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-07 14:55:14,701 - Page - page.py->clear[line:182] - INFO - Clear the text in the inputBox [ password ] 
+2020-09-07 14:55:14,701 - Mail126 - mail126test.py->test_mail_login1[line:70] - INFO - ['send_keys', 'n', 'password', 'password'] 
+2020-09-07 14:55:14,717 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-07 14:55:14,748 - Page - page.py->send_keys[line:169] - INFO - Inputted ' password ' in the inputBox 
+2020-09-07 14:55:14,748 - Page - page.py->switch_to_default_content[line:317] - INFO - Current frame will be default content 
+2020-09-07 14:55:14,764 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-09-07 14:55:14,764 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-09-07 14:55:14,826 - Page - page.py->find_element[line:81] - INFO - Found the element: ' 邮箱帐号登录
+注册网易邮箱
+邮箱官方App ' successfully! by: i value:loginBlock 
+2020-09-07 14:55:14,842 - Page - page.py->get_attribute[line:207] - INFO - The attr_value for the element [ loginBlock ] was gained:login tab-2 
+2020-09-07 14:55:14,842 - Mail126 - mail126test.py->test_mail_login1[line:80] - INFO - Test Pass 
+2020-09-07 14:55:22,690 - Browser - browser.py->__init__[line:20] - INFO - Starting firefox browser 
+2020-09-07 14:55:27,084 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-07 14:55:27,092 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-07 14:55:27,139 - Page - page.py->find_element[line:81] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-09-07 14:55:27,310 - Page - page.py->send_keys[line:169] - INFO - Inputted ' su ' in the inputBox 
+2020-09-07 14:55:27,367 - Page - page.py->find_element[line:81] - INFO - Found the element: '  ' successfully! by: i value:su 
+2020-09-07 14:55:27,635 - Page - page.py->click[line:195] - INFO - The element [ su ] was clicked 
+2020-09-07 14:55:27,652 - Page - page.py->find_element[line:81] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-09-07 14:55:27,665 - Page - page.py->get_attribute[line:207] - INFO - The attr_value for the element [ kw ] was gained:None 
+2020-09-07 14:55:27,666 - Mail126 - mail126test.py->test_mail_login2[line:97] - ERROR - Test assert Fail:argument of type 'NoneType' is not iterable 
+2020-09-07 14:55:27,666 - Browser - browser.py->quit_browser[line:54] - INFO - Now, quit the browser. 

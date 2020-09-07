@@ -1,0 +1,23 @@
+2020-08-24 18:31:17,879 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:31:17,879 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:31:21,473 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 18:31:21,473 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 18:31:30,833 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:31:33,820 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 18:31:33,828 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:31:45,430 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 18:31:48,171 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-24 18:31:48,187 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 18:31:48,187 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-24 18:31:48,249 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-24 18:31:49,734 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-24 18:31:50,015 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-24 18:31:50,077 - Page - page.py->switch_to_window[line:320] - INFO - Switch to the window: 6442450950 
+2020-08-24 18:32:00,094 - Page - page.py->find_element[line:92] - ERROR - [name ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: [name="account"]
+ 
+2020-08-24 18:32:00,828 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-24 18:32:00,859 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-08-24 18:32:00,906 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-24 18:32:02,922 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-08-24 18:32:02,938 - test - test.py->test_baidu_search2[line:115] - ERROR - Test Fail:Message: Element <input name="password" type="password"> could not be scrolled into view
+ 

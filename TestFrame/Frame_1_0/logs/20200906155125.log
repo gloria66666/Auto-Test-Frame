@@ -1,0 +1,36 @@
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:24] - INFO - You had select Firefox browser. 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:26] - INFO - The test server url is http://www.126.com 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:28] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:30] - INFO - The test case file name is 测试.xls 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:32] - INFO - The test case sheet name is 测试1 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:34] - INFO - The test case col is 1 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:36] - INFO - The test case sleep col is 2 
+2020-09-06 15:51:25,514 - Mail126 - mail126test.py->setUpClass[line:38] - INFO - The test case assert col is 3 
+2020-09-06 15:51:32,603 - Browser - browser.py->__init__[line:19] - INFO - Starting firefox browser 
+2020-09-06 15:51:37,213 - Browser - browser.py->open_browser[line:34] - INFO - Open url http://www.126.com 
+2020-09-06 15:51:37,260 - Browser - browser.py->open_browser[line:36] - INFO - Set implicitly wait 10 seconds 
+2020-09-06 15:51:37,260 - Page - page.py->switch_frame[line:309] - INFO - [switch_frame]Current frame will be //*[@id="loginDiv"]/iframe 
+2020-09-06 15:51:37,338 - Page - page.py->find_element[line:141] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-09-06 15:51:37,338 - Page - page.py->switch_to_frame[line:302] - INFO - [switch_to_frame]Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="1b857df4-513c-4695-a1bf-a6fdd3cc6f5b", element="3dc9e70e-cff5-4898-b393-87e6448e46fb")> 
+2020-09-06 15:51:37,432 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-06 15:51:37,463 - Page - page.py->clear[line:182] - INFO - Clear the text in the inputBox [ email ] 
+2020-09-06 15:51:37,526 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-06 15:51:37,573 - Page - page.py->send_keys[line:169] - INFO - Inputted ' username ' in the inputBox 
+2020-09-06 15:51:37,573 - Mail126 - mail126test.py->test_mail_login[line:66] - INFO - ['clear,n,password', 'send_keys,n,password,password'] 
+2020-09-06 15:51:37,573 - Mail126 - mail126test.py->test_mail_login[line:69] - INFO - ['clear', 'n', 'password'] 
+2020-09-06 15:51:37,588 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-06 15:51:37,604 - Page - page.py->clear[line:182] - INFO - Clear the text in the inputBox [ password ] 
+2020-09-06 15:51:37,604 - Mail126 - mail126test.py->test_mail_login[line:69] - INFO - ['send_keys', 'n', 'password', 'password'] 
+2020-09-06 15:51:37,619 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-06 15:51:37,635 - Page - page.py->send_keys[line:169] - INFO - Inputted ' password ' in the inputBox 
+2020-09-06 15:51:37,635 - Page - page.py->switch_to_default_content[line:317] - INFO - Current frame will be default content 
+2020-09-06 15:51:37,666 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-09-06 15:51:37,666 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-09-06 15:51:37,729 - Page - page.py->find_element[line:81] - INFO - Found the element: ' 邮箱帐号登录
+注册网易邮箱
+邮箱官方App ' successfully! by: i value:loginBlock 
+2020-09-06 15:51:37,760 - Page - page.py->get_attribute[line:207] - INFO - The attr_value for the element [ loginBlock ] was gained:login tab-2 
+2020-09-06 15:51:37,760 - Mail126 - mail126test.py->test_mail_login[line:79] - INFO - Test Pass 
+2020-09-06 15:51:37,760 - Mail126 - mail126test.py->tearDownClass[line:45] - INFO - The browser will be close after 3 seconds. 
+2020-09-06 15:51:40,760 - Browser - browser.py->quit_browser[line:43] - INFO - Now, Close and quit the browser. 
+2020-09-06 15:51:47,198 - Browser - browser.py->quit_browser[line:47] - ERROR - HTTPConnectionPool(host='127.0.0.1', port=52451): Max retries exceeded with url: /session/1b857df4-513c-4695-a1bf-a6fdd3cc6f5b/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000F19B861988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')) 

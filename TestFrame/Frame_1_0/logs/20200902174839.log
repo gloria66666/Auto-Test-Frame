@@ -1,0 +1,40 @@
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-02 17:48:39,864 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-02 17:48:49,239 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 17:48:52,192 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-02 17:48:52,237 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 17:48:52,239 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-02 17:48:52,240 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-02 17:48:52,242 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-02 17:48:52,242 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 17:48:52,253 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 17:48:52,255 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 17:48:52,255 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 17:48:52,255 - Excel - excel.py->__init__[line:93] - ERROR - A fault in parameters: sheet_name or sheet_idx 
+2020-09-02 17:49:05,012 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 17:49:07,731 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-02 17:49:07,762 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 17:49:07,762 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-02 17:49:07,762 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-02 17:49:07,762 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-02 17:49:07,762 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 17:49:07,778 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 17:49:07,778 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 17:49:07,778 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 17:49:07,778 - Excel - excel.py->__init__[line:93] - ERROR - A fault in parameters: sheet_name or sheet_idx 
+2020-09-02 17:49:20,623 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 17:49:23,509 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-02 17:49:23,538 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 17:49:23,540 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-02 17:49:23,541 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-02 17:49:23,543 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-02 17:49:23,543 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 17:49:23,553 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 17:49:23,556 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 17:49:23,556 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 17:49:23,556 - Excel - excel.py->__init__[line:93] - ERROR - A fault in parameters: sheet_name or sheet_idx 

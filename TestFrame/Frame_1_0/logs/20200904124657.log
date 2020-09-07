@@ -1,0 +1,34 @@
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-04 12:46:57,999 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-04 12:47:07,359 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 12:47:10,203 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-04 12:47:10,219 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 12:47:10,219 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-04 12:47:10,219 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-04 12:47:10,219 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-04 12:47:10,219 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 12:47:10,235 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 12:47:10,235 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 12:47:10,235 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 12:47:10,235 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 12:47:21,204 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 12:47:25,736 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-09-04 12:47:25,751 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 12:47:25,751 - Excel - excel.py->execute[line:202] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 12:47:25,751 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 12:47:25,751 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 12:47:25,767 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 12:47:25,767 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 12:47:25,783 - Excel - excel.py->execute[line:261] - ERROR - Test Fail:invalid literal for int() with base 10: 'current_window_handle self.ori_win_handle_lst' 
+2020-09-04 12:47:25,783 - Excel - excel.py->execute[line:202] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-04 12:47:25,783 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 12:47:25,783 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 12:47:25,798 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 12:47:25,798 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 12:47:25,814 - Excel - excel.py->execute[line:261] - ERROR - Test Fail:invalid literal for int() with base 10: 'current_window_handle self.ori_win_handle_lst' 
+2020-09-04 12:47:25,814 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

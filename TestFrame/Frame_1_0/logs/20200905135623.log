@@ -1,0 +1,75 @@
+2020-09-05 13:56:23,673 - test - baidutest.py->setUpClass[line:93] - INFO - You had select Firefox browser. 
+2020-09-05 13:56:23,673 - test - baidutest.py->setUpClass[line:95] - INFO - The test server url is http://baidu.com 
+2020-09-05 13:56:23,673 - test - baidutest.py->setUpClass[line:97] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUpClass[line:99] - INFO - The test case file name is 测试.xls 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUpClass[line:101] - INFO - The test case sheet name is 测试1 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUpClass[line:103] - INFO - The test case col is 1 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUpClass[line:105] - INFO - The test case assert col is 3 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUp[line:123] - INFO - case_col: 1 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUp[line:125] - INFO - sleep_col: 2 
+2020-09-05 13:56:23,688 - test - baidutest.py->setUp[line:127] - INFO - assert_col: 3 
+2020-09-05 13:56:23,688 - Excel - excel.py->open[line:115] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-05 13:56:23,688 - Excel - excel.py->copy[line:124] - INFO - Excel file will be copy 
+2020-09-05 13:56:23,688 - Excel - excel.py->sheet_by_name[line:132] - INFO - Get the sheet : [测试1] 
+2020-09-05 13:56:23,688 - Excel - excel.py->sheet_names[line:156] - INFO - Get all sheet names (dict) 
+2020-09-05 13:56:23,688 - Excel - excel.py->get_sheet[line:173] - INFO - Get the wt_book's sheet: [0] 
+2020-09-05 13:56:33,550 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-05 13:56:35,769 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-05 13:56:35,769 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-05 13:56:35,769 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-05 13:56:35,769 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:56:35,769 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-05 13:56:35,769 - test - baidutest.py->execute[line:38] - INFO - case_lst:['current_window_handle,ori_win_handle_lst', 'click,c,icon_qq'] 
+2020-09-05 13:56:35,769 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:56:35,769 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-05 13:56:35,769 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-05 13:56:35,769 - test - baidutest.py->execute[line:44] - INFO - 12 3 
+2020-09-05 13:56:35,769 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-05 13:56:35,785 - Page - page.py->current_window_handle[line:335] - INFO - Get the current window handle:18 
+2020-09-05 13:56:35,785 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-05 13:56:42,687 - Page - page.py->find_element[line:105] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-05 13:56:43,687 - Page - page.py->click[line:199] - INFO - The element [ icon_qq ] was clicked 
+2020-09-05 13:56:43,688 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:56:43,688 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [0]row-[3]col 
+2020-09-05 13:56:43,688 - test - baidutest.py->execute[line:66] - INFO - assert_lst:['assertIn,登录:get_url_title', 'assertIn,icon_qq:get_attribute,c,icon_qq,c'] 
+2020-09-05 13:56:43,710 - Page - page.py->get_url_title[line:302] - INFO - Current page title is 微博-随时随地发现新鲜事 
+2020-09-05 13:56:43,727 - test - baidutest.py->execute[line:75] - INFO - result:微博-随时随地发现新鲜事 
+2020-09-05 13:56:43,727 - test - baidutest.py->execute[line:80] - ERROR - Test assert Fail:'登录' not found in '微博-随时随地发现新鲜事' 
+2020-09-05 13:56:43,727 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:56:43,727 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-05 13:56:43,728 - test - baidutest.py->execute[line:38] - INFO - case_lst:['switch_window,ori_win_handle_lst', 'get_window_size', 'click,l,QQ登录服务协议'] 
+2020-09-05 13:56:43,728 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:56:43,728 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-05 13:56:43,728 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '1', '0'] 
+2020-09-05 13:56:43,728 - test - baidutest.py->execute[line:44] - INFO - 12 3 
+2020-09-05 13:56:43,728 - test - baidutest.py->execute[line:47] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-05 13:56:43,756 - Page - page.py->window_handles[line:342] - INFO - Get all window handles:['18', '39'] 
+2020-09-05 13:56:43,775 - Page - page.py->switch_window[line:360] - INFO - The original window handle:18 
+2020-09-05 13:56:43,775 - Page - page.py->switch_window[line:361] - INFO - The current window handle:18 
+2020-09-05 13:56:43,776 - Page - page.py->switch_window[line:360] - INFO - The original window handle:18 
+2020-09-05 13:56:43,776 - Page - page.py->switch_window[line:361] - INFO - The current window handle:39 
+2020-09-05 13:56:43,776 - Page - page.py->switch_to_window[line:349] - INFO - Switch to the window: 39 
+2020-09-05 13:56:44,247 - Page - page.py->switch_window[line:364] - INFO - 跳转到目的窗口 
+2020-09-05 13:56:44,247 - test - baidutest.py->execute[line:47] - INFO - para:['get_window_size'] 
+2020-09-05 13:56:44,247 - test - baidutest.py->execute[line:82] - ERROR - Test Fail:list assignment index out of range 
+2020-09-05 13:56:54,854 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-05 13:57:01,569 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-05 13:57:01,613 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-05 13:57:01,614 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [2]row-[2]row 
+2020-09-05 13:57:01,614 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:57:01,614 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [2]row-[1]col 
+2020-09-05 13:57:01,614 - test - baidutest.py->execute[line:38] - INFO - case_lst:['click,l,电影', 'set_window_size,500,200', 'get_window_size,win', 'maximize_window', 'send_keys,id,bdcsMain,流浪者', 'click,c,btn-default'] 
+2020-09-05 13:57:01,614 - Excel - excel.py->cell_value[line:165] - INFO - The cell_type: 1 
+2020-09-05 13:57:01,614 - Excel - excel.py->cell_value[line:166] - INFO - Get this cell_value: [2]row-[2]col 
+2020-09-05 13:57:01,614 - test - baidutest.py->execute[line:41] - INFO - sleep time list:['0', '2', '2'] 
+2020-09-05 13:57:01,614 - test - baidutest.py->execute[line:44] - INFO - 12 3 
+2020-09-05 13:57:01,615 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', '电影'] 
+2020-09-05 13:57:01,677 - Page - page.py->find_element[line:115] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-05 13:57:04,784 - Page - page.py->click[line:199] - INFO - The element [ 电影 ] was clicked 
+2020-09-05 13:57:04,785 - test - baidutest.py->execute[line:47] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-05 13:57:04,785 - Page - page.py->set_window_size[line:227] - INFO - Window will be set: 500*200 
+2020-09-05 13:57:04,837 - test - baidutest.py->execute[line:57] - INFO - It will sleep 2S 
+2020-09-05 13:57:04,837 - test - baidutest.py->execute[line:58] - INFO - 1599285424.8376033 
+2020-09-05 13:57:06,838 - test - baidutest.py->execute[line:60] - INFO - 1599285426.8381348 
+2020-09-05 13:57:06,839 - test - baidutest.py->execute[line:47] - INFO - para:['get_window_size', 'win'] 
+2020-09-05 13:57:06,840 - test - baidutest.py->execute[line:82] - ERROR - Test Fail:get_window_size() takes 1 positional argument but 2 were given 

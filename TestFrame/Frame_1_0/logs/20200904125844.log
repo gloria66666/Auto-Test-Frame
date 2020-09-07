@@ -1,0 +1,7 @@
+2020-09-04 12:58:54,413 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 12:58:57,765 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-04 12:58:57,802 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 12:59:07,749 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 12:59:13,109 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-09-04 12:59:13,125 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 12:59:13,156 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

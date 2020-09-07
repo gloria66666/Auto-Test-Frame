@@ -1,0 +1,25 @@
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-04 12:58:45,069 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-04 12:58:57,803 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-04 12:58:57,805 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-04 12:58:57,806 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-04 12:58:57,806 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 12:58:57,817 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 12:58:57,820 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 12:58:57,820 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 12:58:57,820 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 12:59:13,125 - Excel - excel.py->execute[line:202] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 12:59:13,125 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 12:59:13,125 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 12:59:13,125 - Excel - excel.py->execute[line:204] - INFO - case:current_window_handle self.ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-04 12:59:13,156 - Excel - excel.py->execute[line:206] - INFO - case_lst:['current_window_handle self.ori_win_handle_lst', 'click l µÇÂ¼', 'click l Á¢¼´×¢²á'], type:<class 'list'> 
+2020-09-04 12:59:13,156 - Excel - excel.py->execute[line:202] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-04 12:59:13,156 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 12:59:13,156 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 12:59:13,156 - Excel - excel.py->execute[line:204] - INFO - case:current_window_handle self.ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-04 12:59:13,156 - Excel - excel.py->execute[line:206] - INFO - case_lst:['current_window_handle self.ori_win_handle_lst', 'click l µÇÂ¼', 'click l Á¢¼´×¢²á'], type:<class 'list'> 

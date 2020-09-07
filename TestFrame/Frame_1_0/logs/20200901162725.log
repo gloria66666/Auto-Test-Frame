@@ -1,0 +1,92 @@
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-01 16:27:25,711 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-01 16:27:43,369 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 16:27:46,175 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 16:27:46,183 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 16:27:46,209 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-09-01 16:27:46,298 - Page - page.py->send_keys[line:170] - INFO - Inputted ' su ' in the inputBox 
+2020-09-01 16:27:46,341 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-01 16:27:46,777 - Page - page.py->click[line:196] - INFO - The element [ su ] was clicked 
+2020-09-01 16:27:46,808 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-01 16:27:46,820 - Page - page.py->get_attribute[line:208] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-09-01 16:27:46,820 - Page - page.py->maximize_window[line:243] - INFO - Window will be maximized 
+2020-09-01 16:27:47,079 - Page - page.py->execute_script[line:216] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-09-01 16:27:52,087 - Page - page.py->set_window_size[line:224] - INFO - Window will be set: 500*300 
+2020-09-01 16:27:52,187 - Page - page.py->get_window_size[line:233] - INFO - Current window size is {'width': 500, 'height': 300} 
+2020-09-01 16:27:52,205 - Page - page.py->current_url[line:283] - INFO - Current page url is https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=su&fenlei=256&rsv_pq=e4a308240002f9c5&rsv_t=57cbKpjy8YK2QbYc63SjGZp2dZEzgTObmHkJCCUEDcSCRywv%2BQ9Jna%2FzVAY&rqlang=cn&rsv_dl=tb&rsv_enter=0&rsv_sug3=2&rsv_btype=i&inputT=139&rsv_sug4=139 
+2020-09-01 16:27:52,209 - Page - page.py->back[line:251] - INFO - Window will be back 
+2020-09-01 16:27:57,231 - Page - page.py->current_url[line:283] - INFO - Current page url is https://www.baidu.com/ 
+2020-09-01 16:27:57,231 - Page - page.py->forward[line:259] - INFO - Window will be forward 
+2020-09-01 16:27:58,825 - Page - page.py->get_windows_img[line:48] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-09-01 16:28:00,825 - test - baidutest.py->test_baidu_operation[line:119] - ERROR - Test operation assert Fail:500 != 0 
+2020-09-01 16:28:10,310 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 16:28:13,823 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 16:28:13,889 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 16:28:13,970 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-09-01 16:28:14,315 - Page - page.py->send_keys[line:170] - INFO - Inputted ' selenium ' in the inputBox 
+2020-09-01 16:28:14,377 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: i value:su 
+2020-09-01 16:28:14,713 - Page - page.py->click[line:196] - INFO - The element [ su ] was clicked 
+2020-09-01 16:28:17,077 - Page - page.py->get_windows_img[line:48] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-09-01 16:28:17,085 - Page - page.py->get_url_title[line:292] - INFO - Current page title is selenium_°Ù¶ÈËÑË÷ 
+2020-09-01 16:28:17,092 - test - baidutest.py->test_baidu_search[line:77] - INFO - Test search_selenium Pass 
+2020-09-01 16:28:17,092 - Page - page.py->close[line:275] - INFO - Window will be closed 
+2020-09-01 16:28:37,560 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 16:28:40,232 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 16:28:40,232 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 16:28:40,248 - Page - page.py->current_window_handle[line:325] - INFO - Get the current window handle:18 
+2020-09-01 16:28:40,310 - Page - page.py->find_element[line:112] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-09-01 16:28:42,045 - Page - page.py->find_element[line:112] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-09-01 16:28:42,388 - Page - page.py->window_handles[line:332] - INFO - Get all window handles:['18', '6442450950'] 
+2020-09-01 16:28:42,404 - Page - page.py->swicth_window[line:349] - INFO - The original window handle:18 
+2020-09-01 16:28:42,404 - Page - page.py->swicth_window[line:350] - INFO - The current window handle:18 
+2020-09-01 16:28:42,404 - Page - page.py->swicth_window[line:349] - INFO - The original window handle:18 
+2020-09-01 16:28:42,404 - Page - page.py->swicth_window[line:350] - INFO - The current window handle:6442450950 
+2020-09-01 16:28:42,404 - Page - page.py->switch_to_window[line:339] - INFO - Switch to the window: 6442450950 
+2020-09-01 16:28:42,420 - Page - page.py->swicth_window[line:353] - INFO - Ìø×ªµ½Ä¿µÄ´°¿Ú 
+2020-09-01 16:28:43,357 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-09-01 16:28:43,404 - Page - page.py->send_keys[line:170] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-09-01 16:28:55,421 - Page - page.py->find_element[line:94] - ERROR - [name ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: [name="phone1"]
+ 
+2020-09-01 16:28:56,108 - Page - page.py->get_windows_img[line:48] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-09-01 16:29:07,468 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 16:29:10,547 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-09-01 16:29:10,578 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 16:29:10,890 - Page - page.py->find_element[line:142] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-09-01 16:29:10,890 - Page - page.py->switch_to_frame[line:300] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="9e78c1ed-27d2-41f4-ade1-9c42d9f1b642", element="f8617710-9b77-4984-8b58-c0b4753a9856")> 
+2020-09-01 16:29:10,922 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-01 16:29:10,937 - Page - page.py->clear[line:183] - INFO - Clear the text in the inputBox [ email ] 
+2020-09-01 16:29:10,953 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-01 16:29:10,984 - Page - page.py->send_keys[line:170] - INFO - Inputted ' username ' in the inputBox 
+2020-09-01 16:29:10,984 - Excel - excel.py->open[line:76] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-01 16:29:11,000 - Excel - excel.py->copy[line:85] - INFO - Excel file will be copy 
+2020-09-01 16:29:11,000 - Excel - excel.py->sheet_by_name[line:93] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-01 16:29:11,000 - Excel - excel.py->sheet_names[line:117] - INFO - Get all sheet names (dict) 
+2020-09-01 16:29:11,000 - Excel - excel.py->get_sheet[line:134] - INFO - Get the wt_book's sheet: [0] 
+2020-09-01 16:29:11,000 - Excel - excel.py->cell_value[line:126] - INFO - The cell_type: 1 
+2020-09-01 16:29:11,000 - Excel - excel.py->cell_value[line:127] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-01 16:29:11,000 - test - baidutest.py->test_baidu_signin[line:168] - INFO - {'1':'²âÊÔ','2':'s','a':'im'} 
+2020-09-01 16:29:11,000 - Excel - excel.py->cell_value[line:126] - INFO - The cell_type: 1 
+2020-09-01 16:29:11,000 - Excel - excel.py->cell_value[line:127] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-01 16:29:11,000 - test - baidutest.py->test_baidu_signin[line:171] - INFO - clear n password,send_keys n password password' 
+2020-09-01 16:29:11,000 - test - baidutest.py->test_baidu_signin[line:173] - INFO - ['clear n password', "send_keys n password password'"] 
+2020-09-01 16:29:11,000 - test - baidutest.py->test_baidu_signin[line:176] - INFO - ['clear', 'n', 'password'] 
+2020-09-01 16:29:11,015 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-01 16:29:11,015 - Page - page.py->clear[line:183] - INFO - Clear the text in the inputBox [ password ] 
+2020-09-01 16:29:11,015 - test - baidutest.py->test_baidu_signin[line:176] - INFO - ['send_keys', 'n', 'password', "password'"] 
+2020-09-01 16:29:11,047 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-01 16:29:11,062 - Page - page.py->send_keys[line:170] - INFO - Inputted ' password' ' in the inputBox 
+2020-09-01 16:29:11,078 - Page - page.py->find_element[line:82] - INFO - Found the element: ' µÇ  Â¼ ' successfully! by: i value:dologin 
+2020-09-01 16:29:11,312 - Page - page.py->click[line:196] - INFO - The element [ dologin ] was clicked 
+2020-09-01 16:29:11,312 - Page - page.py->switch_to_default_content[line:307] - INFO - Current frame will be default content 
+2020-09-01 16:29:11,359 - Page - page.py->get_url_title[line:292] - INFO - Current page title is 126ÍøÒ×Ãâ·ÑÓÊ--ÄãµÄ×¨Òµµç×ÓÓÊ 
+2020-09-01 16:29:11,359 - Page - page.py->get_url_title[line:292] - INFO - Current page title is 126ÍøÒ×Ãâ·ÑÓÊ--ÄãµÄ×¨Òµµç×ÓÓÊ 
+2020-09-01 16:29:11,422 - Page - page.py->find_element[line:82] - INFO - Found the element: ' ÓÊÏäÕÊºÅµÇÂ¼
+×¢²áÍøÒ×ÓÊÏä
+ÓÊÏä¹Ù·½App ' successfully! by: i value:loginBlock 
+2020-09-01 16:29:11,422 - Page - page.py->get_attribute[line:208] - INFO - The attr_value for the element [ loginBlock ] was gained:login tab-2 
+2020-09-01 16:29:11,422 - test - baidutest.py->test_baidu_signin[line:186] - INFO - Test Pass 

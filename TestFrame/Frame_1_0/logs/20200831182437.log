@@ -1,0 +1,10 @@
+2020-08-31 18:24:37,162 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-08-31 18:24:37,178 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-08-31 18:24:37,178 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-08-31 18:24:37,178 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-08-31 18:24:37,178 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-08-31 18:24:37,178 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-08-31 18:24:37,178 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-08-31 18:24:45,929 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-31 18:24:57,211 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-31 18:25:09,555 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 

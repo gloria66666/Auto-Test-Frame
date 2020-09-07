@@ -1,0 +1,93 @@
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:30] - INFO - You had select Firefox browser. 
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:32] - INFO - The test server url is http://baidu.com 
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:34] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:36] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:38] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:40] - INFO - The test case col is 1 
+2020-09-02 18:18:51,273 - test - baidutest.py->setUpClass[line:42] - INFO - The test case assert col is 1 
+2020-09-02 18:19:00,086 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 18:19:03,320 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-02 18:19:03,330 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 18:19:03,331 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-02 18:19:03,333 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-02 18:19:03,333 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-02 18:19:03,334 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 18:19:03,341 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 18:19:03,345 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 18:19:03,346 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 18:19:03,346 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-02 18:19:03,375 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-09-02 18:19:03,481 - Page - page.py->send_keys[line:171] - INFO - Inputted ' su ' in the inputBox 
+2020-09-02 18:19:03,687 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-02 18:19:03,968 - Page - page.py->click[line:197] - INFO - The element [ su ] was clicked 
+2020-09-02 18:19:04,022 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-02 18:19:04,068 - Page - page.py->get_attribute[line:209] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-09-02 18:19:04,068 - Page - page.py->maximize_window[line:246] - INFO - Window will be maximized 
+2020-09-02 18:19:04,390 - Page - page.py->execute_script[line:217] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-09-02 18:19:09,845 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 500*300 
+2020-09-02 18:19:09,923 - Page - page.py->get_window_size[line:234] - INFO - Current window size is {'width': 500, 'height': 300} 
+2020-09-02 18:19:09,939 - Page - page.py->current_url[line:286] - INFO - Current page url is https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=su&fenlei=256&rsv_pq=b54ad8a10003a276&rsv_t=a966UbypabbAFnVYWslYYQqxLUkJPuM7A3RA1A1vPVgxb3nxp%2Fpyrj6V4%2Fo&rqlang=cn&rsv_enter=0&rsv_dl=tb&rsv_sug3=2&rsv_sug1=1&rsv_sug7=100&rsv_btype=i&inputT=339&rsv_sug4=339 
+2020-09-02 18:19:09,939 - Page - page.py->back[line:254] - INFO - Window will be back 
+2020-09-02 18:19:14,970 - Page - page.py->current_url[line:286] - INFO - Current page url is https://www.baidu.com/ 
+2020-09-02 18:19:14,986 - Page - page.py->forward[line:262] - INFO - Window will be forward 
+2020-09-02 18:19:15,845 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009021819_S_operation500300.png 
+2020-09-02 18:19:15,970 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-02 18:19:17,971 - test - baidutest.py->test_baidu_operation[line:123] - INFO - Test operation Pass 
+2020-09-02 18:19:17,971 - Page - page.py->close[line:278] - INFO - Window will be closed 
+2020-09-02 18:19:27,706 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-02 18:19:35,941 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 18:19:38,691 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-02 18:19:38,691 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 18:19:38,707 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-02 18:19:38,707 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-02 18:19:38,707 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-02 18:19:38,707 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 18:19:38,707 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 18:19:38,707 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 18:19:38,707 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 18:19:38,722 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-02 18:19:38,800 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-09-02 18:19:39,113 - Page - page.py->send_keys[line:171] - INFO - Inputted ' selenium ' in the inputBox 
+2020-09-02 18:19:39,175 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: i value:su 
+2020-09-02 18:19:39,503 - Page - page.py->click[line:197] - INFO - The element [ su ] was clicked 
+2020-09-02 18:19:41,504 - Page - page.py->get_windows_img[line:46] - INFO - This screenshot will be save:I:\Python3\TestFrame\Frame_1_0\screenshots\202009021819_S_search_selenium.png 
+2020-09-02 18:19:41,835 - Page - page.py->get_windows_img[line:49] - INFO - Take the screenshot and save to folder: \screenshots 
+2020-09-02 18:19:41,862 - Page - page.py->get_url_title[line:295] - INFO - Current page title is selenium_°Ù¶ÈËÑË÷ 
+2020-09-02 18:19:41,873 - test - baidutest.py->test_baidu_search[line:84] - INFO - Test search_selenium Pass 
+2020-09-02 18:19:41,873 - Page - page.py->close[line:278] - INFO - Window will be closed 
+2020-09-02 18:19:52,894 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-02 18:20:01,567 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 18:20:04,901 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-02 18:20:04,934 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 18:20:04,936 - test - baidutest.py->setUp[line:61] - INFO - case_col: 1 
+2020-09-02 18:20:04,937 - test - baidutest.py->setUp[line:63] - INFO - sleep_col: 1 
+2020-09-02 18:20:04,939 - test - baidutest.py->setUp[line:65] - INFO - assert_col: 1 
+2020-09-02 18:20:04,939 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 18:20:04,948 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 18:20:04,950 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 18:20:04,950 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 18:20:04,950 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-02 18:20:16,193 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-02 18:20:18,927 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-09-02 18:20:18,958 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-02 18:20:19,255 - Page - page.py->find_element[line:143] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-09-02 18:20:19,255 - Page - page.py->switch_to_frame[line:303] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="17a96f0e-84c8-4862-97ea-19b5e6df6e85", element="4c0a2622-9838-4abb-987f-9162ec4d8d36")> 
+2020-09-02 18:20:19,474 - Page - page.py->find_element[line:93] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-02 18:20:19,490 - Page - page.py->clear[line:184] - INFO - Clear the text in the inputBox [ email ] 
+2020-09-02 18:20:19,505 - Page - page.py->find_element[line:93] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-02 18:20:19,552 - Page - page.py->send_keys[line:171] - INFO - Inputted ' username ' in the inputBox 
+2020-09-02 18:20:19,552 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-02 18:20:19,552 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-02 18:20:19,584 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-02 18:20:19,584 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-02 18:20:19,584 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-02 18:20:19,584 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-02 18:20:19,584 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-02 18:20:19,584 - test - baidutest.py->test_baidu_signin[line:175] - INFO - current_window_handle self.ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-02 18:20:19,584 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-02 18:20:19,584 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-02 18:20:19,584 - test - baidutest.py->test_baidu_signin[line:178] - INFO - switch_window self.ori_win_handle_lst,send_keys n userName 123456789,send_keys n phone 123456789 
+2020-09-02 18:20:19,584 - test - baidutest.py->test_baidu_signin[line:180] - INFO - ['switch_window self.ori_win_handle_lst', 'send_keys n userName 123456789', 'send_keys n phone 123456789'] 
+2020-09-02 18:20:19,584 - test - baidutest.py->test_baidu_signin[line:183] - INFO - ['switch_window', 'self.ori_win_handle_lst'] 
+2020-09-02 18:20:19,584 - test - baidutest.py->test_baidu_signin[line:199] - ERROR - Test Fail:'Page' object has no attribute 'switch_window' 
+2020-09-02 18:20:19,584 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

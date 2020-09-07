@@ -1,0 +1,35 @@
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:31] - INFO - You had select Firefox browser. 
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:33] - INFO - The test server url is http://baidu.com 
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:35] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:37] - INFO - The test case file name is 测试.xls 
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:39] - INFO - The test case sheet name is 测试1 
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:41] - INFO - The test case col is 1 
+2020-08-31 17:31:39,870 - test - baidutest.py->setUpClass[line:43] - INFO - The test case assert col is 1 
+2020-08-31 17:31:52,245 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-31 17:31:55,824 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-31 17:31:55,855 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-31 17:31:55,918 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-31 17:31:55,996 - Page - page.py->send_keys[line:171] - INFO - Inputted ' su ' in the inputBox 
+2020-08-31 17:31:56,027 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-31 17:31:56,277 - Page - page.py->click[line:197] - INFO - The element [ su ] was clicked 
+2020-08-31 17:31:56,308 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-31 17:31:56,324 - Page - page.py->get_attribute[line:209] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-08-31 17:31:56,324 - Page - page.py->maximize_window[line:243] - INFO - Window will be maximized 
+2020-08-31 17:31:56,605 - Page - page.py->execute_script[line:217] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-31 17:32:01,606 - Page - page.py->set_window_size[line:225] - INFO - Window will be set: 200*300 
+2020-08-31 17:32:01,664 - Page - page.py->back[line:251] - INFO - Window will be back 
+2020-08-31 17:32:06,722 - Page - page.py->get_window_size[line:234] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="0d6f87fb-f5dc-4985-9279-fcccd82ccbcf")>> 
+2020-08-31 17:32:06,738 - Page - page.py->current_url[line:283] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-31 17:32:06,738 - Page - page.py->forward[line:259] - INFO - Window will be forward 
+2020-08-31 17:32:07,738 - test - baidutest.py->test_baidu_operation[line:113] - ERROR - Test operation Fail:can only concatenate str (not "int") to str 
+2020-08-31 17:32:07,769 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-08-31 17:32:07,894 - Page - page.py->send_keys[line:171] - INFO - Inputted ' selenium ' in the inputBox 
+2020-08-31 17:32:07,941 - Page - page.py->find_element[line:83] - INFO - Found the element: '  ' successfully! by: i value:su 
+2020-08-31 17:32:07,972 - test - baidutest.py->test_baidu_search[line:77] - ERROR - Test search_selenium Fail:Message: Element <input id="su" class="bg s_btn" type="submit"> could not be scrolled into view
+ 
+2020-08-31 17:32:07,972 - Page - page.py->current_window_handle[line:321] - INFO - Get the current window handle 
+2020-08-31 17:32:08,019 - Page - page.py->find_element[line:113] - INFO - Found the element: ' ��¼ ' successfully! by: l value:��¼ 
+2020-08-31 17:32:08,019 - test - baidutest.py->test_baidu_signin[line:180] - ERROR - Test Fail:Message: Element <a class="lb" href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login"> could not be scrolled into view
+ 
+2020-08-31 17:32:08,019 - test - baidutest.py->tearDownClass[line:50] - INFO - The browser will be close after 3 seconds. 
+2020-08-31 17:32:11,019 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

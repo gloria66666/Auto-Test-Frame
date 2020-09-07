@@ -1,0 +1,2 @@
+2020-08-23 14:15:07,007 - test - test.py->setUp[line:24] - INFO - You had select Firefox browser. 
+2020-08-23 14:15:07,007 - test - test.py->setUp[line:26] - INFO - The test server url is http://baidu.com 

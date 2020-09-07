@@ -1,0 +1,53 @@
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:89] - INFO - You had select Firefox browser. 
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:93] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:95] - INFO - The test case file name is 测试.xls 
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:97] - INFO - The test case sheet name is 测试1 
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:99] - INFO - The test case col is 1 
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:101] - INFO - The test case sleep col is 2 
+2020-09-06 16:31:42,125 - Baidutest - baidutest.py->setUpClass[line:103] - INFO - The test case assert col is 3 
+2020-09-06 16:31:51,907 - Browser - browser.py->__init__[line:20] - INFO - Starting firefox browser 
+2020-09-06 16:31:54,782 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-06 16:31:54,782 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-06 16:31:54,782 - Excel - excel.py->open[line:90] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-06 16:31:54,844 - Excel - excel.py->copy[line:99] - INFO - Excel file will be copy 
+2020-09-06 16:31:54,844 - Excel - excel.py->sheet_by_name[line:107] - INFO - Get the sheet : [测试1] 
+2020-09-06 16:31:54,844 - Excel - excel.py->sheet_names[line:131] - INFO - [sheet_names]Get all sheet names (dict) 
+2020-09-06 16:31:54,844 - Excel - excel.py->get_sheet[line:148] - INFO - Get the wt_book's sheet: [0] 
+2020-09-06 16:31:54,844 - Baidutest - baidutest.py->execute[line:24] - INFO - Execute the case from the rd_book's sheet [0]: [1]row-[2]row 
+2020-09-06 16:31:54,844 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-06 16:31:54,844 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [1]row-[1]col 
+2020-09-06 16:31:54,844 - Baidutest - baidutest.py->execute[line:28] - INFO - case_lst:['current_window_handle,ori_win_handle_lst', 'click,c,icon_qq'] 
+2020-09-06 16:31:54,844 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-06 16:31:54,844 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [1]row-[2]col 
+2020-09-06 16:31:54,844 - Baidutest - baidutest.py->execute[line:32] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-06 16:31:54,844 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-06 16:31:54,860 - Page - page.py->current_window_handle[line:335] - INFO - Get the current window handle:18 
+2020-09-06 16:31:54,860 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-06 16:32:01,137 - Page - page.py->find_element[line:101] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-06 16:32:01,514 - Baidutest - baidutest.py->execute[line:78] - ERROR - Test Fail:Message: Element <a class="cp_logo icon_qq" href="https://passport.weibo.com/othersitebind/authorize?entry=miniblog&site=qq"> could not be scrolled into view
+ 
+2020-09-06 16:32:11,201 - Browser - browser.py->__init__[line:20] - INFO - Starting firefox browser 
+2020-09-06 16:32:18,702 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.iziqian.com/ 
+2020-09-06 16:32:18,718 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-06 16:32:18,718 - Baidutest - baidutest.py->execute[line:24] - INFO - Execute the case from the rd_book's sheet [0]: [3]row-[3]row 
+2020-09-06 16:32:18,718 - Excel - excel.py->cell_value[line:140] - INFO - The cell_type: 1 
+2020-09-06 16:32:18,718 - Excel - excel.py->cell_value[line:141] - INFO - Get this cell_value: [3]row-[1]col 
+2020-09-06 16:32:18,718 - Baidutest - baidutest.py->execute[line:28] - INFO - case_lst:['click,l,电影', 'set_window_size,500,200', 'get_window_size,i', 'maximize_window', 'send_keys,id,bdcsMain,流浪者', 'click,c,btn-default'] 
+2020-09-06 16:32:18,718 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['click', 'l', '电影'] 
+2020-09-06 16:32:18,780 - Page - page.py->find_element[line:111] - INFO - Found the element: ' 电影 ' successfully! by: l value:电影 
+2020-09-06 16:32:22,645 - Page - page.py->click[line:195] - INFO - The element [ 电影 ] was clicked 
+2020-09-06 16:32:22,645 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['set_window_size', '500', '200'] 
+2020-09-06 16:32:22,646 - Page - page.py->set_window_size[line:223] - INFO - Window will be set: 500*200 
+2020-09-06 16:32:22,701 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['get_window_size', 'i'] 
+2020-09-06 16:32:22,707 - Page - page.py->get_window_size[line:233] - INFO - Current window size is {'width': 500, 'height': 200} 
+2020-09-06 16:32:22,721 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['maximize_window'] 
+2020-09-06 16:32:22,721 - Page - page.py->maximize_window[line:245] - INFO - Window will be maximized 
+2020-09-06 16:32:22,981 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['send_keys', 'id', 'bdcsMain', '流浪者'] 
+2020-09-06 16:32:22,998 - Page - page.py->find_element[line:81] - INFO - Found the element: '  ' successfully! by: id value:bdcsMain 
+2020-09-06 16:32:23,045 - Page - page.py->send_keys[line:169] - INFO - Inputted ' 流浪者 ' in the inputBox 
+2020-09-06 16:32:23,045 - Baidutest - baidutest.py->execute[line:37] - INFO - para:['click', 'c', 'btn-default'] 
+2020-09-06 16:32:23,089 - Page - page.py->find_element[line:101] - INFO - Found the element: ' 搜索 ' successfully! by: c value:btn-default 
+2020-09-06 16:32:23,652 - Page - page.py->click[line:195] - INFO - The element [ btn-default ] was clicked 
+2020-09-06 16:32:23,653 - Excel - excel.py->save[line:164] - INFO - Save the wt_book: [0] 
+2020-09-06 16:32:23,705 - Browser - browser.py->quit_browser[line:46] - INFO - Now, close and quit the browser. 
+2020-09-06 16:32:30,870 - Browser - browser.py->quit_browser[line:50] - ERROR - quit_browser:HTTPConnectionPool(host='127.0.0.1', port=53290): Max retries exceeded with url: /session/fada320f-7671-4ae2-be9e-48456ed18f56/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000079AACEE2C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')) 

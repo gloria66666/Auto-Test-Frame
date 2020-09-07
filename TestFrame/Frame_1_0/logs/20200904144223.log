@@ -1,0 +1,50 @@
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:81] - INFO - You had select Firefox browser. 
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:83] - INFO - The test server url is http://baidu.com 
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:85] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:87] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:89] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:91] - INFO - The test case col is 1 
+2020-09-04 14:42:23,584 - test - baidutest.py->setUpClass[line:93] - INFO - The test case assert col is 3 
+2020-09-04 14:42:32,912 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 14:42:35,761 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-04 14:42:35,780 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 14:42:35,783 - test - baidutest.py->setUp[line:111] - INFO - case_col: 1 
+2020-09-04 14:42:35,786 - test - baidutest.py->setUp[line:113] - INFO - sleep_col: 2 
+2020-09-04 14:42:35,788 - test - baidutest.py->setUp[line:115] - INFO - assert_col: 3 
+2020-09-04 14:42:35,788 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-09-04 14:42:35,799 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 14:42:35,800 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [²âÊÔ1] 
+2020-09-04 14:42:35,800 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 14:42:35,801 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 14:42:35,801 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 14:42:35,801 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:42:35,801 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 14:42:35,801 - test - baidutest.py->execute[line:37] - INFO - case:current_window_handle ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-04 14:42:35,801 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:42:35,801 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 14:42:35,801 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,0,0 
+2020-09-04 14:42:35,801 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 14:42:35,801 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 14:42:35,818 - Page - page.py->current_window_handle[line:331] - ERROR - Failed to get the current window handle: 'str' object does not support item assignment 
+2020-09-04 14:42:35,818 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'µÇÂ¼'] 
+2020-09-04 14:42:35,914 - Page - page.py->find_element[line:113] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-09-04 14:42:36,247 - Page - page.py->click[line:197] - INFO - The element [ µÇÂ¼ ] was clicked 
+2020-09-04 14:42:36,247 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'Á¢¼´×¢²á'] 
+2020-09-04 14:42:37,553 - Page - page.py->find_element[line:113] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-09-04 14:42:37,882 - Page - page.py->click[line:197] - INFO - The element [ Á¢¼´×¢²á ] was clicked 
+2020-09-04 14:42:37,882 - test - baidutest.py->execute[line:29] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[1]row 
+2020-09-04 14:42:37,883 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:42:37,884 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 14:42:37,884 - test - baidutest.py->execute[line:37] - INFO - case:current_window_handle ori_win_handle_lst,click l µÇÂ¼,click l Á¢¼´×¢²á 
+2020-09-04 14:42:37,884 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 14:42:37,885 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 14:42:37,885 - test - baidutest.py->execute[line:40] - INFO - sleep time:0,0,0 
+2020-09-04 14:42:37,885 - test - baidutest.py->execute[line:42] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 14:42:37,885 - test - baidutest.py->execute[line:47] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 14:42:37,928 - Page - page.py->current_window_handle[line:331] - ERROR - Failed to get the current window handle: 'str' object does not support item assignment 
+2020-09-04 14:42:37,928 - test - baidutest.py->execute[line:47] - INFO - para:['click', 'l', 'µÇÂ¼'] 
+2020-09-04 14:42:38,007 - Page - page.py->find_element[line:113] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-09-04 14:42:38,147 - test - baidutest.py->execute[line:70] - ERROR - Test Fail:Message: Element <a class="s-top-login-btn c-btn c-btn-primary c-btn-mini lb" href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5" name="tj_login"> is not clickable at point (1234,30) because another element <div> obscures it
+ 
+2020-09-04 14:42:38,147 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 
+2020-09-04 14:42:49,127 - Browser - browser.py->quit_browser[line:45] - INFO - Now, Close and quit the browser. 

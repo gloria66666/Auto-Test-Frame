@@ -1,0 +1,55 @@
+2020-08-28 17:49:02,676 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-28 17:49:02,677 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-28 17:49:12,012 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:49:14,827 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-28 17:49:14,832 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:49:14,869 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-28 17:49:15,044 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-28 17:49:15,096 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-28 17:49:15,347 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-28 17:49:15,361 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-28 17:49:15,373 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-28 17:49:15,373 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-28 17:49:15,657 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-28 17:49:21,034 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-28 17:49:21,096 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-28 17:49:26,134 - Page - page.py->current_url[line:270] - INFO - Current page url is https://www.baidu.com/ 
+2020-08-28 17:49:26,147 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="bd0a1762-fd33-4b3a-87ba-a4eebe2d4a6b")>> 
+2020-08-28 17:49:26,161 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-28 17:49:29,085 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-28 17:49:39,572 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-28 17:49:39,572 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-28 17:49:49,349 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:49:53,983 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-28 17:49:54,012 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:50:04,347 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:50:07,094 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-28 17:50:07,160 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:50:07,161 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-28 17:50:07,230 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-28 17:50:09,137 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-28 17:50:09,508 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-28 17:50:09,518 - Page - page.py->switch_to_window[line:320] - INFO - Switch to the window: 6442450950 
+2020-08-28 17:50:19,548 - Page - page.py->find_element[line:92] - ERROR - [name ¶¨Î»·½Ê½]NoSuchElementException:Message: Unable to locate element: [name="account"]
+ 
+2020-08-28 17:50:20,251 - Page - page.py->get_windows_img[line:46] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-08-28 17:50:20,265 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:userName 
+2020-08-28 17:50:20,301 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-28 17:50:22,341 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:phone 
+2020-08-28 17:50:22,419 - Page - page.py->send_keys[line:168] - INFO - Inputted ' 123456789 ' in the inputBox 
+2020-08-28 17:50:35,387 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-28 17:50:39,159 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-28 17:50:39,216 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-28 17:50:39,251 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-28 17:50:39,251 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="8e7c2abc-f812-492e-91d6-a5e7a16663fa", element="668a47cd-e1ff-4963-8a3a-e5578646a686")> 
+2020-08-28 17:50:39,279 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-28 17:50:39,290 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-28 17:50:39,309 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-28 17:50:39,350 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-28 17:50:39,365 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-08-28 17:50:39,374 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ password ] 
+2020-08-28 17:50:39,393 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-08-28 17:50:39,432 - Page - page.py->send_keys[line:168] - INFO - Inputted ' password ' in the inputBox 
+2020-08-28 17:50:39,474 - Page - page.py->find_element[line:80] - INFO - Found the element: ' µÇ  Â¼ ' successfully! by: i value:dologin 
+2020-08-28 17:50:39,735 - Page - page.py->click[line:194] - INFO - The element [ dologin ] was clicked 
+2020-08-28 17:50:39,736 - test - test.py->test_baidu_search2[line:141] - ERROR - Test Fail:'Page' object has no attribute 'switch_to' 

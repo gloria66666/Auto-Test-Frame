@@ -1,0 +1,10 @@
+2020-08-30 12:22:07,223 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-30 12:22:07,223 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-30 12:23:35,680 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-08-30 12:23:35,883 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-30 12:23:35,883 - Excel - excel.py->sheet_by_name[line:94] - INFO - Get the sheet : [²âÊÔ1] 
+2020-08-30 12:23:35,883 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-30 12:23:35,883 - Excel - excel.py->get_sheet[line:135] - INFO - Get the wt_book's sheet: [0] 
+2020-08-30 12:23:35,883 - Excel - excel.py->cell_value[line:131] - ERROR - Failed to get the cell_value [0]row-[1]col: 'Book' object has no attribute 'cell_type' 
+2020-08-30 12:23:35,883 - Excel - excel.py->cell_value[line:131] - ERROR - Failed to get the cell_value [1]row-[1]col: 'Book' object has no attribute 'cell_type' 
+2020-08-30 12:23:36,336 - test - test.py->test_baidu_search2[line:157] - INFO - Test Pass 

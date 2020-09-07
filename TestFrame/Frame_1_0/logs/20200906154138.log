@@ -1,0 +1,33 @@
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:24] - INFO - You had select Firefox browser. 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:26] - INFO - The test server url is http://www.126.com 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:28] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:30] - INFO - The test case file name is 测试.xls 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:32] - INFO - The test case sheet name is 测试1 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:34] - INFO - The test case col is 1 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:36] - INFO - The test case sleep col is 2 
+2020-09-06 15:41:38,485 - Mail126 - mail126test.py->setUpClass[line:38] - INFO - The test case assert col is 3 
+2020-09-06 15:41:48,430 - Browser - browser.py->__init__[line:19] - INFO - Starting firefox browser 
+2020-09-06 15:41:54,415 - Browser - browser.py->open_browser[line:34] - INFO - Open url http://www.126.com 
+2020-09-06 15:41:54,415 - Browser - browser.py->open_browser[line:36] - INFO - Set implicitly wait 10 seconds 
+2020-09-06 15:41:54,415 - Page - page.py->switch_frame[line:309] - INFO - [switch_frame]Current frame will be //*[@id="loginDiv"]/iframe 
+2020-09-06 15:41:55,102 - Page - page.py->find_element[line:141] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-09-06 15:41:55,102 - Page - page.py->switch_to_frame[line:302] - INFO - [switch_to_frame]Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="587a87a3-a61e-4c9a-8b2d-e2f247506ad8", element="db05079d-92b7-4ebb-a5ab-9ccb6bdf0c1d")> 
+2020-09-06 15:41:57,618 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-06 15:41:57,696 - Page - page.py->clear[line:182] - INFO - Clear the text in the inputBox [ email ] 
+2020-09-06 15:41:57,728 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-09-06 15:41:57,790 - Page - page.py->send_keys[line:169] - INFO - Inputted ' username ' in the inputBox 
+2020-09-06 15:41:57,790 - Mail126 - mail126test.py->test_mail_login[line:66] - INFO - ['clear,n,password', 'send_keys,n,password,password'] 
+2020-09-06 15:41:57,790 - Mail126 - mail126test.py->test_mail_login[line:69] - INFO - ['clear', 'n', 'password'] 
+2020-09-06 15:41:57,821 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-06 15:41:57,821 - Page - page.py->clear[line:182] - INFO - Clear the text in the inputBox [ password ] 
+2020-09-06 15:41:57,821 - Mail126 - mail126test.py->test_mail_login[line:69] - INFO - ['send_keys', 'n', 'password', 'password'] 
+2020-09-06 15:41:57,853 - Page - page.py->find_element[line:91] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-09-06 15:41:57,884 - Page - page.py->send_keys[line:169] - INFO - Inputted ' password ' in the inputBox 
+2020-09-06 15:41:57,931 - Page - page.py->find_element[line:81] - INFO - Found the element: ' 登  录 ' successfully! by: i value:dologin 
+2020-09-06 15:41:58,181 - Page - page.py->click[line:195] - INFO - The element [ dologin ] was clicked 
+2020-09-06 15:41:58,181 - Page - page.py->switch_to_default_content[line:317] - INFO - Current frame will be default content 
+2020-09-06 15:41:58,196 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-09-06 15:41:58,228 - Page - page.py->get_url_title[line:294] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-09-06 15:41:58,243 - Mail126 - mail126test.py->test_mail_login[line:81] - ERROR - Test assert Fail:'126网易免费邮' unexpectedly found in '126网易免费邮--你的专业电子邮' 
+2020-09-06 15:41:58,243 - Mail126 - mail126test.py->tearDownClass[line:45] - INFO - The browser will be close after 3 seconds. 
+2020-09-06 15:42:01,244 - Browser - browser.py->quit_browser[line:42] - INFO - Now, Close and quit the browser. 

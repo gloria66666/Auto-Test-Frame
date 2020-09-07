@@ -1,0 +1,24 @@
+2020-08-24 17:57:34,868 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 17:57:34,868 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 17:57:47,354 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 17:57:50,690 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 17:57:50,729 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 17:57:50,826 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-24 17:57:51,029 - Page - page.py->send_keys[line:168] - INFO - Inputted ' su ' in the inputBox 
+2020-08-24 17:57:51,135 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 17:57:51,377 - Page - page.py->click[line:194] - INFO - The element [ su ] was clicked 
+2020-08-24 17:57:51,410 - Page - page.py->find_element[line:80] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-08-24 17:57:51,431 - Page - page.py->get_attribute[line:206] - INFO - The attr_value for the element [ su ] was gained 
+2020-08-24 17:57:51,431 - Page - page.py->maximize_window[line:235] - INFO - Window will be maximized 
+2020-08-24 17:57:51,775 - Page - page.py->execute_script[line:214] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-08-24 17:57:57,457 - Page - page.py->set_window_size[line:221] - INFO - Window will be set: 300*300 
+2020-08-24 17:57:57,551 - Page - page.py->back[line:242] - INFO - Window will be back 
+2020-08-24 17:58:02,614 - Page - page.py->get_window_size[line:228] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="2483075e-246c-4418-ad40-96d1cfc5becf")>> 
+2020-08-24 17:58:02,629 - Page - page.py->forward[line:249] - INFO - Window will be forward 
+2020-08-24 17:58:05,880 - Page - page.py->close[line:263] - INFO - Window will be closed 
+2020-08-24 17:58:17,099 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 17:58:17,099 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 17:58:26,381 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 17:58:29,256 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 17:58:29,288 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 17:58:29,288 - test - test.py->test_baidu_search2[line:113] - ERROR - Test Fail:name 'Firefox' is not defined 

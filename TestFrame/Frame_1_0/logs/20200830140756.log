@@ -1,0 +1,29 @@
+2020-08-30 14:07:56,291 - test - test.py->setUp[line:29] - INFO - You had select Firefox browser. 
+2020-08-30 14:07:56,291 - test - test.py->setUp[line:31] - INFO - The test server url is http://baidu.com 
+2020-08-30 14:08:05,667 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 14:08:08,182 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-30 14:08:08,214 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 14:08:18,714 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 14:08:21,177 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-30 14:08:21,222 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 14:08:21,223 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-30 14:08:21,302 - Page - page.py->find_element[line:110] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-08-30 14:08:22,285 - Page - page.py->find_element[line:110] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-08-30 14:08:22,704 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-30 14:08:33,263 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 14:08:37,044 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-30 14:08:37,076 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 14:08:37,247 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-30 14:08:37,247 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="235d3f6e-094d-41b4-a1b2-cc09138585a8", element="32b65a13-12c6-41b1-90d8-99a4cd476613")> 
+2020-08-30 14:08:37,997 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 14:08:38,013 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-30 14:08:38,029 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 14:08:38,076 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-30 14:08:38,076 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ.xls] will be open 
+2020-08-30 14:08:38,091 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-30 14:08:38,091 - Excel - excel.py->sheet_by_name[line:94] - INFO - Get the sheet : [²âÊÔ1] 
+2020-08-30 14:08:38,091 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-30 14:08:38,091 - Excel - excel.py->get_sheet[line:135] - INFO - Get the wt_book's sheet: [0] 
+2020-08-30 14:08:38,091 - Excel - excel.py->cell_value[line:127] - INFO - The cell_type: 1 
+2020-08-30 14:08:38,091 - Excel - excel.py->cell_value[line:128] - INFO - Get this cell_value: [0]row-[1]col 
+2020-08-30 14:08:38,091 - test - test.py->test_baidu_search2[line:171] - ERROR - Test Fail:Expecting property name enclosed in double quotes: line 1 column 2 (char 1) 

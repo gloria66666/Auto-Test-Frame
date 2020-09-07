@@ -1,0 +1,9 @@
+2020-08-21 18:08:25,819 - test - test.py->setUp[line:24] - INFO - You had select Firefox browser. 
+2020-08-21 18:08:25,819 - test - test.py->setUp[line:26] - INFO - The test server url is http://baidu.com 
+2020-08-21 18:08:42,210 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-21 18:08:44,429 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-21 18:08:44,448 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-21 18:08:44,497 - Page - page.py->find_element[line:63] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-21 18:08:44,686 - Page - page.py->send_keys[line:135] - INFO - Inputted ' su ' in the inputBox 
+2020-08-21 18:08:44,740 - Page - page.py->find_element[line:63] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-08-21 18:08:45,006 - Page - page.py->click[line:157] - INFO - The element [ kw ] was clicked 

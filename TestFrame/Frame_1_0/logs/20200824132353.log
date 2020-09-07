@@ -1,0 +1,9 @@
+2020-08-24 13:23:53,903 - test - test.py->setUp[line:26] - INFO - You had select Firefox browser. 
+2020-08-24 13:23:53,903 - test - test.py->setUp[line:28] - INFO - The test server url is http://baidu.com 
+2020-08-24 13:24:11,248 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-24 13:24:13,263 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-24 13:24:13,284 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-24 13:24:13,285 - Page - page.py->execute_script[line:213] - INFO - Script will be execute: alert("To Bottom") 
+2020-08-24 13:24:13,643 - test - test.py->test_baidu_search[line:63] - ERROR - Test Fail:Alert Text: None
+Message: Dismissed user prompt dialog: To Bottom
+ 

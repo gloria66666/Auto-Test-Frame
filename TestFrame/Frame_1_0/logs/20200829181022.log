@@ -1,0 +1,8 @@
+2020-08-29 18:10:22,374 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-29 18:10:22,374 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-29 18:11:13,803 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-29 18:11:13,803 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-29 18:12:43,849 - Excel - excel.py->open[line:81] - ERROR - Failed to open the excel file [I:\PostmanExer\¿ò¼Ü²âÊÔ\²âÊÔ] : 'str' object has no attribute 'decode' 
+2020-08-29 18:12:44,037 - Excel - excel.py->copy[line:85] - INFO - Excel file will be copy 
+2020-08-29 18:12:44,037 - Excel - excel.py->copy[line:88] - ERROR - Failed to copy the excel file : 'NoneType' object has no attribute 'datemode' 
+2020-08-29 18:12:44,037 - test - test.py->test_baidu_search2[line:161] - ERROR - Test Fail:'NoneType' object has no attribute 'sheet_loaded' 

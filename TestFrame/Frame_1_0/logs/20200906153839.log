@@ -1,0 +1,12 @@
+2020-09-06 15:38:39,890 - Baidutest - baidutest.py->setUpClass[line:93] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-06 15:38:39,890 - Baidutest - baidutest.py->setUpClass[line:95] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-06 15:38:39,890 - Baidutest - baidutest.py->setUpClass[line:97] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-06 15:38:39,890 - Baidutest - baidutest.py->setUpClass[line:99] - INFO - The test case col is 1 
+2020-09-06 15:38:39,905 - Baidutest - baidutest.py->setUpClass[line:101] - INFO - The test case sleep col is 2 
+2020-09-06 15:38:39,905 - Baidutest - baidutest.py->setUpClass[line:103] - INFO - The test case assert col is 3 
+2020-09-06 15:38:39,905 - Mail126 - mail126test.py->setUpClass[line:24] - INFO - You had select Firefox browser. 
+2020-09-06 15:38:39,905 - Mail126 - mail126test.py->setUpClass[line:26] - INFO - The test server url is http://www.126.com 
+2020-09-06 15:38:39,905 - Mail126 - mail126test.py->setUpClass[line:28] - INFO - The test case file path is I:\PostmanExer\¿ò¼Ü²âÊÔ 
+2020-09-06 15:38:39,905 - Mail126 - mail126test.py->setUpClass[line:30] - INFO - The test case file name is ²âÊÔ.xls 
+2020-09-06 15:38:39,905 - Mail126 - mail126test.py->setUpClass[line:32] - INFO - The test case sheet name is ²âÊÔ1 
+2020-09-06 15:38:39,905 - Mail126 - mail126test.py->setUpClass[line:34] - INFO - The test case col is 1 

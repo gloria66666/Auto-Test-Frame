@@ -1,0 +1,38 @@
+2020-08-30 13:17:02,899 - test - test.py->setUp[line:28] - INFO - You had select Firefox browser. 
+2020-08-30 13:17:02,899 - test - test.py->setUp[line:30] - INFO - The test server url is http://baidu.com 
+2020-08-30 13:17:12,868 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 13:17:16,645 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-30 13:17:16,669 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 13:17:26,647 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 13:17:30,335 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.baidu.com 
+2020-08-30 13:17:30,350 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 13:17:30,350 - Page - page.py->current_window_handle[line:306] - INFO - Get the current window handle 
+2020-08-30 13:17:30,507 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 登录 ' successfully! by: l value:登录 
+2020-08-30 13:17:32,335 - Page - page.py->find_element[line:110] - INFO - Found the element: ' 立即注册 ' successfully! by: l value:立即注册 
+2020-08-30 13:17:32,647 - Page - page.py->window_handles[line:313] - INFO - Get all window handles 
+2020-08-30 13:17:44,851 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-30 13:17:48,867 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://www.126.com 
+2020-08-30 13:17:48,914 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-08-30 13:17:49,149 - Page - page.py->find_element[line:140] - INFO - Found the element: '  ' successfully! by: x value://*[@id="loginDiv"]/iframe 
+2020-08-30 13:17:49,149 - Page - page.py->switch_to_frame[line:285] - INFO - Current frame will be <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="aa27c3e0-6343-455e-b008-fcbae5c33cef", element="a54573d9-f07e-404c-afa8-6ff5f57eeb06")> 
+2020-08-30 13:17:49,180 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 13:17:49,195 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ email ] 
+2020-08-30 13:17:49,211 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:email 
+2020-08-30 13:17:49,258 - Page - page.py->send_keys[line:168] - INFO - Inputted ' username ' in the inputBox 
+2020-08-30 13:17:49,258 - Excel - excel.py->open[line:77] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-08-30 13:17:49,258 - Excel - excel.py->copy[line:86] - INFO - Excel file will be copy 
+2020-08-30 13:17:49,258 - Excel - excel.py->sheet_by_name[line:94] - INFO - Get the sheet : [测试1] 
+2020-08-30 13:17:49,258 - Excel - excel.py->sheet_names[line:118] - INFO - Get all sheet names (dict) 
+2020-08-30 13:17:49,258 - Excel - excel.py->get_sheet[line:135] - INFO - Get the wt_book's sheet: [0] 
+2020-08-30 13:17:49,258 - Excel - excel.py->cell_value[line:127] - INFO - The cell_type: 1 
+2020-08-30 13:17:49,258 - Excel - excel.py->cell_value[line:128] - INFO - Get this cell_value: [0]row-[1]col 
+2020-08-30 13:17:49,274 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-08-30 13:17:49,289 - Page - page.py->clear[line:181] - INFO - Clear the text in the inputBox [ password ] 
+2020-08-30 13:17:49,305 - Page - page.py->find_element[line:90] - INFO - Found the element: '  ' successfully! by: n value:password 
+2020-08-30 13:17:49,336 - Page - page.py->send_keys[line:168] - INFO - Inputted ' password ' in the inputBox 
+2020-08-30 13:17:49,367 - Page - page.py->find_element[line:80] - INFO - Found the element: ' 登  录 ' successfully! by: i value:dologin 
+2020-08-30 13:17:49,586 - Page - page.py->click[line:194] - INFO - The element [ dologin ] was clicked 
+2020-08-30 13:17:49,586 - Page - page.py->switch_to_default_content[line:292] - INFO - Current frame will be default content 
+2020-08-30 13:17:49,617 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-08-30 13:17:49,633 - Page - page.py->get_url_title[line:278] - INFO - Current page title is 126网易免费邮--你的专业电子邮 
+2020-08-30 13:17:49,649 - test - test.py->test_baidu_search2[line:161] - ERROR - Test Fail:'126网易免费邮' unexpectedly found in '126网易免费邮--你的专业电子邮' 

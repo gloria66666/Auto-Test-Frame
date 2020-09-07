@@ -1,0 +1,33 @@
+2020-09-01 15:54:21,735 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 15:54:24,917 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 15:54:24,928 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 15:54:24,967 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:kw 
+2020-09-01 15:54:25,111 - Page - page.py->send_keys[line:170] - INFO - Inputted ' su ' in the inputBox 
+2020-09-01 15:54:25,333 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-01 15:54:25,570 - Page - page.py->click[line:196] - INFO - The element [ su ] was clicked 
+2020-09-01 15:54:25,588 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: id value:su 
+2020-09-01 15:54:25,600 - Page - page.py->get_attribute[line:208] - INFO - The attr_value for the element [ su ] was gained:su 
+2020-09-01 15:54:25,601 - Page - page.py->maximize_window[line:243] - INFO - Window will be maximized 
+2020-09-01 15:54:25,906 - Page - page.py->execute_script[line:216] - INFO - Script will be execute: window.scrollTo(1000,960); 
+2020-09-01 15:54:31,409 - Page - page.py->set_window_size[line:224] - INFO - Window will be set: 500*300 
+2020-09-01 15:54:31,518 - Page - page.py->get_window_size[line:233] - INFO - Current window size is <bound method WebDriver.get_window_size of <selenium.webdriver.firefox.webdriver.WebDriver (session="4bb4bef2-a221-4bff-a490-fbbdfab6b911")>> 
+2020-09-01 15:54:31,534 - Page - page.py->current_url[line:283] - INFO - Current page url is https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=su&fenlei=256&rsv_pq=dd9f729100119572&rsv_t=68f6mLo9jSuV3BnEapSTeGXg%2FUJHSQ8txe2MutkY6Ki72%2BAL9b3v5dRvKbc&rqlang=cn&rsv_enter=0&rsv_dl=tb&rsv_sug3=2&rsv_sug1=1&rsv_sug7=100&rsv_btype=i&inputT=354&rsv_sug4=354 
+2020-09-01 15:54:31,534 - Page - page.py->back[line:251] - INFO - Window will be back 
+2020-09-01 15:54:36,581 - Page - page.py->current_url[line:283] - INFO - Current page url is https://www.baidu.com/ 
+2020-09-01 15:54:46,019 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 15:54:50,136 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 15:54:50,149 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 15:54:50,182 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: i value:kw 
+2020-09-01 15:54:50,416 - Page - page.py->send_keys[line:170] - INFO - Inputted ' selenium ' in the inputBox 
+2020-09-01 15:54:50,461 - Page - page.py->find_element[line:82] - INFO - Found the element: '  ' successfully! by: i value:su 
+2020-09-01 15:54:50,694 - Page - page.py->click[line:196] - INFO - The element [ su ] was clicked 
+2020-09-01 15:54:53,108 - Page - page.py->get_windows_img[line:48] - INFO - Take one screenshot and save to folder: \screenshots 
+2020-09-01 15:54:53,116 - Page - page.py->get_url_title[line:292] - INFO - Current page title is selenium_°Ù¶ÈËÑË÷ 
+2020-09-01 15:54:53,134 - Page - page.py->close[line:275] - INFO - Window will be closed 
+2020-09-01 15:55:21,145 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-01 15:55:23,927 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-09-01 15:55:23,942 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-01 15:55:24,042 - Page - page.py->find_element[line:112] - INFO - Found the element: ' µÇÂ¼ ' successfully! by: l value:µÇÂ¼ 
+2020-09-01 15:55:25,486 - Page - page.py->find_element[line:112] - INFO - Found the element: ' Á¢¼´×¢²á ' successfully! by: l value:Á¢¼´×¢²á 
+2020-09-01 15:55:25,725 - Page - page.py->swicth_window[line:355] - ERROR - The original window handle:0 
+2020-09-01 15:55:25,826 - Page - page.py->find_element[line:92] - INFO - Found the element: '  ' successfully! by: n value:userName 

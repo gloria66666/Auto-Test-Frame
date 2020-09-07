@@ -1,0 +1,57 @@
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:89] - INFO - You had select Firefox browser. 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:91] - INFO - The test server url is http://baidu.com 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:93] - INFO - The test case file path is I:\PostmanExer\框架测试 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:95] - INFO - The test case file name is 测试.xls 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:97] - INFO - The test case sheet name is 测试1 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:99] - INFO - The test case col is 1 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUpClass[line:101] - INFO - The test case assert col is 3 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUp[line:119] - INFO - case_col: 1 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUp[line:121] - INFO - sleep_col: 2 
+2020-09-04 18:06:14,799 - test - baidutest.py->setUp[line:123] - INFO - assert_col: 3 
+2020-09-04 18:06:14,799 - Excel - excel.py->open[line:116] - INFO - Excel file [I:\PostmanExer\框架测试\测试.xls] will be open 
+2020-09-04 18:06:14,814 - Excel - excel.py->copy[line:125] - INFO - Excel file will be copy 
+2020-09-04 18:06:14,814 - Excel - excel.py->sheet_by_name[line:133] - INFO - Get the sheet : [测试1] 
+2020-09-04 18:06:14,814 - Excel - excel.py->sheet_names[line:157] - INFO - Get all sheet names (dict) 
+2020-09-04 18:06:14,814 - Excel - excel.py->get_sheet[line:174] - INFO - Get the wt_book's sheet: [0] 
+2020-09-04 18:06:23,053 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-09-04 18:06:25,069 - Browser - browser.py->open_browser[line:37] - INFO - Open url https://www.weibo.com/ 
+2020-09-04 18:06:25,084 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
+2020-09-04 18:06:25,084 - test - baidutest.py->execute[line:30] - INFO - Execute the case from the rd_book's sheet [0]: [0]row-[0]row 
+2020-09-04 18:06:25,084 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:06:25,084 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[1]col 
+2020-09-04 18:06:25,084 - test - baidutest.py->execute[line:38] - INFO - case:current_window_handle ori_win_handle_lst,click c icon_qq,switch_window ori_win_handle_lst,click l QQ登录服务协议 
+2020-09-04 18:06:25,084 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:06:25,084 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[2]col 
+2020-09-04 18:06:25,084 - test - baidutest.py->execute[line:41] - INFO - sleep time:0,0,0 
+2020-09-04 18:06:25,084 - test - baidutest.py->execute[line:43] - INFO - sleep time list:['0', '0', '0'] 
+2020-09-04 18:06:25,084 - test - baidutest.py->execute[line:48] - INFO - para:['current_window_handle', 'ori_win_handle_lst'] 
+2020-09-04 18:06:25,116 - Page - page.py->current_window_handle[line:328] - INFO - Get the current window handle:18 
+2020-09-04 18:06:25,116 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:06:25,116 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:06:25,116 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'c', 'icon_qq'] 
+2020-09-04 18:06:32,730 - Page - page.py->find_element[line:103] - INFO - Found the element: '  ' successfully! by: c value:icon_qq 
+2020-09-04 18:06:33,072 - Page - page.py->click[line:197] - INFO - The element [ icon_qq ] was clicked 
+2020-09-04 18:06:33,073 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:06:33,073 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:06:33,073 - test - baidutest.py->execute[line:48] - INFO - para:['switch_window', 'ori_win_handle_lst'] 
+2020-09-04 18:06:33,111 - Page - page.py->window_handles[line:335] - INFO - Get all window handles:['18', '39'] 
+2020-09-04 18:06:33,125 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 18:06:33,126 - Page - page.py->switch_window[line:354] - INFO - The current window handle:18 
+2020-09-04 18:06:33,126 - Page - page.py->switch_window[line:353] - INFO - The original window handle:18 
+2020-09-04 18:06:33,131 - Page - page.py->switch_window[line:354] - INFO - The current window handle:39 
+2020-09-04 18:06:33,131 - Page - page.py->switch_to_window[line:342] - INFO - Switch to the window: 39 
+2020-09-04 18:06:33,165 - Page - page.py->switch_window[line:357] - INFO - 跳转到目的窗口 
+2020-09-04 18:06:33,166 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:06:33,166 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:06:33,166 - test - baidutest.py->execute[line:48] - INFO - para:['click', 'l', 'QQ登录服务协议'] 
+2020-09-04 18:06:33,561 - Page - page.py->find_element[line:113] - INFO - Found the element: ' QQ登录服务协议 ' successfully! by: l value:QQ登录服务协议 
+2020-09-04 18:06:33,691 - Page - page.py->click[line:197] - INFO - The element [ QQ登录服务协议 ] was clicked 
+2020-09-04 18:06:33,694 - test - baidutest.py->execute[line:54] - INFO - ori_win_handle_lst:['18'] 
+2020-09-04 18:06:33,696 - test - baidutest.py->execute[line:55] - INFO - win_size_dict:{'width': 0, 'height': 0} 
+2020-09-04 18:06:33,696 - Excel - excel.py->cell_value[line:166] - INFO - The cell_type: 1 
+2020-09-04 18:06:33,696 - Excel - excel.py->cell_value[line:167] - INFO - Get this cell_value: [0]row-[3]col 
+2020-09-04 18:06:33,696 - test - baidutest.py->execute[line:63] - INFO - assert:assertIn 开发 driver.get_url_title() 
+2020-09-04 18:06:33,696 - test - baidutest.py->execute[line:65] - INFO - ['assertIn 开发 driver.get_url_title()'] 
+2020-09-04 18:06:33,697 - test - baidutest.py->execute[line:76] - ERROR - Test assert Fail:invalid syntax (<string>, line 1) 
+2020-09-04 18:06:36,953 - test - baidutest.py->test_baidu_signin1[line:287] - ERROR - Test Fail:Message: Failed to start browser C:\Program Files\Mozilla Firefox\firefox.exe: other os error
+ 

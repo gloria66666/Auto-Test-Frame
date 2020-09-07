@@ -1,0 +1,5 @@
+2020-08-21 14:21:07,536 - test - test.py->setUp[line:23] - INFO - You had select Firefox browser. 
+2020-08-21 14:21:07,536 - test - test.py->setUp[line:25] - INFO - The test server url is http://baidu.com 
+2020-08-21 14:21:28,694 - Browser - browser.py->__init__[line:22] - INFO - Starting firefox browser 
+2020-08-21 14:21:32,383 - Browser - browser.py->open_browser[line:37] - INFO - Open url http://baidu.com 
+2020-08-21 14:21:32,410 - Browser - browser.py->open_browser[line:39] - INFO - Set implicitly wait 10 seconds 
