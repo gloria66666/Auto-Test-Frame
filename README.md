@@ -18,8 +18,8 @@ browser:Firefox
 方法名,参数&方法名,参数,参数
 + 无参数可省略“,参数”。
 + 参数之间用“,”间隔，步骤之前用“&”间隔，符号用英文字符，不要有空格。
-例：get_url_title&assertIn,icon_qq&get_attribute,c,icon_qq,c
-执行用例的函数会按此次序依次执行操作。  
+例：get_url_title&get_attribute,c,icon_qq,c
+执行用例的函数会按此次序依次执行操作。具体方法和参数详见page类，page类基本封装了所需的大部分操作。
 
 
 2.sleep时间的填写
@@ -45,6 +45,9 @@ self.browser = Browser(BaiduTest.browser, 'https://www.iziqian.com/')
 self.driver = self.browser.open_browser()
 driver = Page(self.driver)
 
+# 可通过config.get_value()读取rd_book_path、rd_book_name、sheet_name，也可自行指定
+self.excl = Excel(BaiduTest.rd_book_path, BaiduTest.rd_book_name, sheet_name=BaiduTest.sheet_name)
+
 # 1,3：从第一行循环执行到第三行，可自己依据excel文件中内容自行填写
 # 可通过config.get_value()读取case_col、sleep_col、assert_col，也可自行指定
 # sleep_bool=False则不读取sleep列，反之则读取并进行相应时间的sleep
@@ -52,3 +55,4 @@ driver = Page(self.driver)
 execute(self.excl, driver, 1, 3, self,
                   case_col=1, sleep_col=2, assert_col=3, sleep_bool=False, assert_bool=False)
 ```
+暂时先写到这
