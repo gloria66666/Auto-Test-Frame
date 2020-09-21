@@ -166,12 +166,19 @@ for test in testlst:
 ![](https://img2020.cnblogs.com/blog/2049095/202009/2049095-20200919192110797-1311368177.jpg)
 
 browserName = 浏览器类型
+
 URL = 要打开的网页
+
 rd_book_path = 测试用例路径
+
 rd_book_name = 测试.xls
+
 sheet_name = 测试用例sheet名
+
 case_col = 用例所在列
+
 sleep_col = sleeptime所在列
+
 assert_col = 断言所在列
 #### 二.填写《测试.xls》文件
 在测试用例文档中填写详细信息：步骤、sleep时间、assert。注意：必须是.xls扩展名，已上传了模板。
