@@ -2,17 +2,27 @@
 ## auto test framework
 ### 环境
 language:Python 3.7 
+
 browser:Firefox
 ### 使用的library
 logging
+
 selenium
+
 xlutils
+
 xlrd
+
 configparser
+
 unittest
+
 operator
+
 json
+
 time
+
 os
 ### 前言
 本工具利用selenium和unittest搭建了一个自动化web测试框架，可用于高效开发测试脚本，即用较少的代码完成自动化测试，减少开发成本，提高测试效率。
@@ -150,39 +160,71 @@ for test in testlst:
 9. 测试.xls
 - 测试用例文档
 ### 使用说明
-一.填写config.ini文件
+#### 一.填写《config.ini》文件
 所有通用信息记录于此。程序中也可不使用此处指定的信息。
 
-二..xls文件（必须是这个扩展名，已上传了模板）填写测试用例详细信息：步骤、sleep时间、assert。
+![](https://img2020.cnblogs.com/blog/2049095/202009/2049095-20200919192110797-1311368177.jpg)
+
+browserName = 浏览器类型
+URL = 要打开的网页
+rd_book_path = 测试用例路径
+rd_book_name = 测试.xls
+sheet_name = 测试用例sheet名
+case_col = 用例所在列
+sleep_col = sleeptime所在列
+assert_col = 断言所在列
+#### 二.填写《测试.xls》文件
+在测试用例文档中填写详细信息：步骤、sleep时间、assert。注意：必须是.xls扩展名，已上传了模板。
+
+![](https://img2020.cnblogs.com/blog/2049095/202009/2049095-20200921171743724-588798039.jpg)
 
 1.步骤的填写
 
-方法名,参数&方法名,参数,参数
-+ 无参数可省略“,参数”。
-+ 参数之间用“,”间隔，步骤之前用“&”间隔，符号用英文字符，不要有空格。
+方法名【,参数&方法名,参数,参数】
++ 若此方法无参数可省略“,参数”。
++ 参数之间用“,”间隔，步骤之间用“&”间隔，符号用英文字符，不要有空格。
++ 此处可填写的方法为page类中的方法
 
 例：get_url_title&get_attribute,c,icon_qq,c
 
-执行用例的函数会按此次序依次执行操作。具体方法和参数详见page类，page类基本封装了所需的大部分操作。
+等同于按以下次序执行方法：
+```
+get_url_title() # 获取title
+get_attribute(c, icon_qq, c) # 定位class为icon_qq的元素并获取其class属性
+```
+
+根据需求填写此列后，代码中封装好的用于执行用例的execute方法会依次执行填好的操作。具体方法和参数详见page类，page类基本封装了所需的大部分操作。
 
 
 2.sleep时间的填写
 
 整数,整数,整数...
-+ 0为步骤中第一个方法执行后sleep零秒，1为第二个方法执行后sleep一秒，依次类推。“,”用英文字符，不要有空格。
++ 第一个操作完成后sleep整数秒,第二个操作完成后sleep整数秒,第三个操作完成后sleep整数秒...
++ sleep时间为0或正整数
++ “,”用英文字符，不要有空格。
 
 例：0,1,2
 
+0为步骤中第一个方法执行后sleep零秒，1为第二个方法执行后sleep一秒，依次类推。
 
 3.assert的填写
 
-unnitest断言函数名,参数（值）:参数（方法，用其取得校对值）,方法参数,方法参数
-+ 能取得校对值的方法若无参数可省略“,方法参数”。
-+ 参数之间用“,”间隔，参数（值）与参数（方法，用其取得校对值）之间用“&”间隔，assert之间用“&”间隔，符号用英文字符，不要有空格。
+unnitest断言函数名,断言函数的参数（值）:断言函数的参数（方法名，用此方法取得校对值）【,取校对值方法的参数【,取校对值方法的参数】】
++ 能取得校对值的方法若无参数可省略“,取校对值方法的参数”。
++ 参数之间用“,”间隔，断言函数的参数（值）与断言函数的参数（方法名，用此方法取得校对值）之间用“:”间隔，assert之间用“&”间隔，符号用英文字符，不要有空格。
 
 例：assertIn,登录:get_url_title&assertIn,icon_qq:get_attribute,c,icon_qq,c
 
-三.代码
+等同于按以下次序执行断言：
+```
+# 获取title并判断是否包含'登录'
+assertIn('登录', get_url_title()) 
+
+# 定位class为icon_qq的元素并获取其class属性，判断是否包含'icon_qq'
+assertIn('icon_qq', get_attribute(c, icon_qq, c)) 
+```
+
+#### 三.代码
 ```
 # 可通过config.get_value("browserType", "browserName")指定browser，也可自行指定
 # config.get_value("testServer", "URL")指定url，也可自行指定
@@ -194,7 +236,7 @@ driver = Page(self.driver)
 # 可通过config.get_value()读取rd_book_path、rd_book_name、sheet_name，也可自行指定
 self.excl = Excel(BaiduTest.rd_book_path, BaiduTest.rd_book_name, sheet_name=BaiduTest.sheet_name)
 
-# 1,3：从第一行循环执行到第三行，可自己依据excel文件中内容自行填写
+# 1,3：从第一行执行到第三行，按照用例执行计划填写
 # 可通过config.get_value()读取case_col、sleep_col、assert_col，也可自行指定
 # sleep_bool=False则不读取sleep列，反之则读取并进行相应时间的sleep
 # assert_bool=False则不读取assert列，反之则读取并执行相应assert
