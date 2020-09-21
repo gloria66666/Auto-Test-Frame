@@ -96,11 +96,62 @@ os
 ```
 2. config
 - config.ini存储通用信息
+
 ![](https://img2020.cnblogs.com/blog/2049095/202009/2049095-20200919192110797-1311368177.jpg)
 
 - config_parser.py封装了读取ini文件的方法。
+3. log
+- logger.py封装了关于日志的一些方法。日志可按次分割也可按时间分割，并且同时输出到控制台和文本。
+4. logs
+- 存储日志文件
+5. screenshots
+- 存储截屏文件（程序运行错误或执行了封装好的截屏方法则会产生截屏文件）
+6. testreport
+- 存储html格式的测试报告（HtmlTestRunner.py生成）
+7. testsuits
+- 各测试用例类
+简单几句代码即可完成测试用例的定制开发
+```
+    def test_baidu_signin(self):
+        try:
+            driver = Page(self.driver)
+
+            execute(self.excl, driver, 1, 2, self,
+                    case_col=BaiduTest.case_col, sleep_col=BaiduTest.sleep_col, assert_col=BaiduTest.assert_col,
+                    sleep_bool=True, assert_bool=True)
+            self.dirver.quit()
+            self.browser = Browser(BaiduTest.browser, 'https://www.iziqian.com/')
+            self.driver = self.browser.open_browser()
+            driver = Page(self.driver)
+
+            execute(self.excl, driver, 3, 3, self,
+                              case_col=1, sleep_col=2, assert_col=3, sleep_bool=False, assert_bool=False)
+        except Exception as e:
+            logger.error("Test Fail:%s" % e)
+        finally:
+            self.browser.quit_browser()
+            self.excl.save()
+```
+- run_all.py：将各测试用例类组织成suit并执行，可按需添加测试用例类下的用例方法也可一次添加各个类下的所有用例方法。
+```
+# unittest suite 批量添加测试用例，逐个进行执行
+# suite = unittest.TestSuite()
+# suite.addTest(BaiduTest('test_baidu_signin'))
+# suite.addTest(Mail126('test_mail_login2'))
+
+# 添加一个类文件下的所有测试用例
+suite = unittest.TestSuite()
+testlst = [BaiduTest, Mail126]
+for test in testlst:
+    suite.addTest(unittest.makeSuite(test))
+```
+8. 测试结果
+- 存储记录了测试结果的测试用例文档
+9. 测试.xls
+- 测试用例文档
 ### 使用说明
-一.config.ini文件用于记录通用信息。在这里设置要用到的浏览器类型和要打开的url。程序中也可不使用此处指定的信息。
+一.填写config.ini文件
+所有通用信息记录于此。程序中也可不使用此处指定的信息。
 
 二..xls文件（必须是这个扩展名，已上传了模板）填写测试用例详细信息：步骤、sleep时间、assert。
 
